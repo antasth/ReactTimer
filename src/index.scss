@@ -1,3 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+// * {
+//   font-family: 'Roboto', sans-serif;
+// }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +31,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+:root {
+  --link: #00b1eb;
+  --background: #e9f4fb;
+  --transition: all 0.2s ease-in-out;
 }

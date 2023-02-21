@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  background-color: var(--background);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 20px;
+
+  .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    margin: 0 3rem;
+    font-size: 18px;
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+    li{ 
+      list-style-type: none;
+      margin-right: 2rem;
+      
+      &:hover {
+        color: var(--link);
+        cursor: pointer;
+        transition: var(--transition);
+      }
+    }
+
+    .logo {
+      margin-right: 3rem;
+    }
+
+    .navbar {
+      flex-grow: 1;
+    }
+  }
+}
