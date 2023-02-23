@@ -49,6 +49,11 @@ a {
 #icon {
   height: 1.5rem;
   width: 1.5rem;
+  color: var(--dark);
+  &:hover {
+    color: var(--link);
+    transition: var(--transition);
+  }
 }
 
 #root {
