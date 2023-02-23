@@ -11,20 +11,10 @@ const SimpleFilters = () => {
     'Сапфировое стекло',
   ]
   return (
-    <div className={styles.filters}>
-      <div className={styles.simple_filters}>
-        {filters.map((filter) => (
-          <FilterButton>{filter}</FilterButton>
-        ))}
-      </div>
-      <div className={styles.sort}>
-        Сортировка{' '}
-        <select>
-          <option value="popularity">По популярности</option>
-          <option value="price">По цене</option>
-          <option value="name">По названию</option>
-        </select>
-      </div>
+    <div className={styles.simple_filters}>
+      {filters.map((filter) => (
+        <FilterButton>{filter}</FilterButton>
+      ))}
     </div>
   )
 }

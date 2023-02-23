@@ -1,4 +1,4 @@
-import { SimpleFilters } from '../UI/SimpleFilters/SimpleFilters'
+import { SortPanel } from '../UI/SortPanel/SortPanel'
 import styles from './AppRouter.module.scss'
 
 const AppRouter = () => {
@@ -6,7 +6,8 @@ const AppRouter = () => {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <h1>AppRouter</h1>
-        <SimpleFilters />
+
+        <SortPanel />
 
         <div className={styles.products}>products</div>
       </div>

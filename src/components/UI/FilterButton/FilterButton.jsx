@@ -1,8 +1,8 @@
-
+import styles from './FilterButton.module.scss'
 
 const FilterButton = ({children}) => {
   return (
-    <button>
+    <button className={styles.filter_button}>
       {children}
     </button>
   );
