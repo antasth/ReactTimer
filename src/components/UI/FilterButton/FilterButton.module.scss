@@ -1,3 +1,18 @@
 .filter_button {
-  padding: 20px;
+  background-color: var(--background-light);
+  border: none;
+  color: var(--dark);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f1c40f 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #B4F9D9 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.filter_button:hover {
+  background-position: 0;
 }

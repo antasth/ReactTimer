@@ -5,10 +5,7 @@ const AppRouter = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
-        <h1>AppRouter</h1>
-
         <SortPanel />
-
         <div className={styles.products}>products</div>
       </div>
     </div>

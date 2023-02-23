@@ -11,11 +11,13 @@ const SimpleFilters = () => {
     'Сапфировое стекло',
   ]
   return (
-    <div className={styles.simple_filters}>
-      {filters.map((filter) => (
-        <FilterButton>{filter}</FilterButton>
-      ))}
-    </div>
+    <>
+      <div className={styles.simple_filters}>
+        {filters.map((filter) => (
+          <FilterButton key={filter}>{filter}</FilterButton>
+        ))}
+      </div>
+    </>
   )
 }
 

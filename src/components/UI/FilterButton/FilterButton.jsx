@@ -1,11 +1,12 @@
+import { Button } from 'antd'
 import styles from './FilterButton.module.scss'
 
-const FilterButton = ({children}) => {
+const FilterButton = ({ children }) => {
   return (
-    <button className={styles.filter_button}>
+    <Button type="default" shape="round" className={styles.filter_button}>
       {children}
-    </button>
-  );
-};
+    </Button>
+  )
+}
 
-export  {FilterButton};
+export { FilterButton }
