@@ -61,20 +61,43 @@
       justify-content: space-between;
       width: 350px;
       height: 100%;
-      .buttons ul {
-        display: flex;
-        justify-content: start;
+      .social {
+        ul {
+          display: flex;
+          justify-content: start;
+          padding: 0;
+        }
       }
       .subscription {
         margin-top: 10px;
       }
-      .subscribe_input {
-        margin-top: 5px;
-        padding: 8px 15px;
-        border-radius: 10px;
+      .input_container {
+        position: relative;
+        max-width: 250px;
+        .subscribe_input {
+          width: 100%;
+          max-width: 250px;
+
+          padding: 8px 15px;
+          border-radius: 10px;
+          padding: 12px;
+        }
+        span {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 12px 0;
+          &:hover {
+            cursor: pointer;
+          }
+        }
       }
       .policy {
         font-size: 12px;
+        max-width: 260px;
+        a {
+          color: var(--link);
+        }
       }
       form {
         margin-bottom: 5px;

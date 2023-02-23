@@ -1,4 +1,5 @@
 import {
+  SlArrowRightCircle,
   SlSocialFacebook,
   SlSocialInstagram,
   SlSocialVkontakte,
@@ -136,16 +137,25 @@ const Footer = () => {
         </div>
         <div className={styles.menu_contacts}>
           <h3 className={styles.title}>Контакты</h3>
-          <p>8-800-333-77-33</p>
-          <p>Адреса магазинов в г. Москва </p>
+          <p>
+            <a href="tel:8-800-333-77-33"> 8-800-333-77-33</a>
+          </p>
+          <p>
+            <a href="#">Адреса магазинов в г. Москва</a>{' '}
+          </p>
           <div className={styles.subscription}>
             <p>Подпишись, чтобы не пропустить наши новинки и акции </p>
             <form>
-              <input
-                className={styles.subscribe_input}
-                type="email"
-                placeholder="Введите Email"
-              ></input>
+              <div className={styles.input_container}>
+                <input
+                  className={styles.subscribe_input}
+                  type="email"
+                  placeholder="Введите Email"
+                ></input>
+                <span>
+                  <SlArrowRightCircle />
+                </span>
+              </div>
             </form>
             <div className={styles.policy}>
               Подписываясь на рассылку, Вы соглашаетесь c условиями
@@ -154,16 +164,26 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className={styles.buttons}>
+          <div className={styles.social}>
             <ul>
               <li>
-                <SlSocialVkontakte id="icon" />
+                <a href="https://vk.com" target="_blank" rel="noreferrer">
+                  <SlSocialVkontakte id="icon" />
+                </a>
               </li>
               <li>
-                <SlSocialInstagram id="icon" />
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <SlSocialInstagram id="icon" />
+                </a>
               </li>
               <li>
-                <SlSocialFacebook id="icon" />
+                <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                  <SlSocialFacebook id="icon" />
+                </a>
               </li>
             </ul>
           </div>
