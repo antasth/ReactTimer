@@ -1,20 +1,16 @@
 .footer {
   width: 100%;
   background-color: var(--background-light);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 20px;
   opacity: 0.8;
+
   .footer_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 0;
-    margin: 0 3rem;
+    padding: 25px 20px;
     font-size: 16px;
-
-    ul {
-      display: flex;
-      align-items: center;
-    }
+    margin: 0 auto;
+    max-width: 1400px;
     li {
       list-style-type: none;
       margin-right: 2rem;
@@ -26,35 +22,96 @@
         transition: var(--transition);
       }
     }
-
-    .logo {
-      margin-right: 3rem;
+    .menu_links {
+      display: flex;
+      .links_group {
+        margin-right: 4rem;
+        &:nth-child(3) {
+          ul {
+            column-count: 2;
+          }
+        }
+      }
     }
 
-    .navbar {
-      flex-grow: 1;
+    .links_group {
+      margin-right: 3rem;
+      .submenu {
+        margin: 0;
+        padding: 0;
+        display: block;
+        li {
+          text-align: left;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    .title {
+      border-bottom: 1px solid #737373;
+      margin-bottom: 1rem;
+      padding-bottom: 20px;
+      color: var(--dark);
+    }
+
+    .menu_contacts {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 350px;
+      height: 100%;
+      .buttons ul {
+        display: flex;
+        justify-content: start;
+      }
+      .subscription {
+        margin-top: 10px;
+      }
+      .subscribe_input {
+        margin-top: 5px;
+        padding: 8px 15px;
+        border-radius: 10px;
+      }
+      .policy {
+        font-size: 12px;
+      }
+      form {
+        margin-bottom: 5px;
+      }
+      p {
+        margin-bottom: 5px;
+      }
     }
   }
 
-  @media (max-width: 1199.98px) {
+  @media (max-width: 1404.98px) {
     .footer_content {
       margin: 0 10px;
-
-      .logo {
-        margin-right: 20px;
-      }
-      ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      li {
-        margin-right: 10px;
+      .menu_links {
+        .links_group {
+          margin-right: 10px;
+        }
       }
     }
   }
-  @media (max-width: 991.98px) {
-    .navbar {
+  @media (max-width: 1245.98px) {
+    .links_group:nth-child(3) {
       display: none;
+    }
+  }
+
+  @media (max-width: 839.98px) {
+    .links_group:nth-child(2) {
+      display: none;
+    }
+  }
+  @media (max-width: 603.98px) {
+    .links_group:nth-child(1) {
+      display: none;
+    }
+    .footer_content {
+      justify-content: start;
     }
   }
 }
