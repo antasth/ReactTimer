@@ -14,14 +14,36 @@
 
 .products {
   flex-grow: 1;
-  display: flex;
-  // justify-content: space-between;
-  flex-wrap: wrap;
   height: 100%;
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 10px;
-  background-color: var(--background-main);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .item {
+    width: 25%;
+  }
+
+  @media (max-width: 1399.98px) {
+    .item {
+      width: 33%;
+    }
+  }
+  @media (max-width: 1050.98px) {
+    .item {
+      width: 50%;
+    }
+  }
+  @media (max-width: 767.98px) { 
+    .item {
+      width: 100%;
+    }
+   }
 }

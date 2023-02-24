@@ -8,12 +8,29 @@ const AppRouter = () => {
       <div className={styles.content}>
         <SortPanel />
         <div className={styles.products}>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ul className={styles.grid}>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+            <li className={styles.item}>
+            <ProductCard />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
