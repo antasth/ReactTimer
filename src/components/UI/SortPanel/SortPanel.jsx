@@ -7,10 +7,10 @@ const SortPanel = () => {
   return (
     <div className={styles.sort_panel}>
       <div className={styles.drop_filters}>
-      <FilterDropDown/>
+        <FilterDropDown />
       </div>
       <div className={styles.filters}>
-      <SimpleFilters />
+        <SimpleFilters />
       </div>
       <SortProducts />
     </div>

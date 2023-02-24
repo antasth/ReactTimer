@@ -7,4 +7,10 @@ line-height: 30px;
     font-size: 14px;
     color: var(--dark);
   }
+
+  @media (max-width: 575.98px) {
+    .title {
+      display: none;
+    }
+  }
 }

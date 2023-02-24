@@ -8,7 +8,7 @@ import styles from './SortProducts.module.scss'
 const SortProducts = () => {
   return (
     <div className={styles.sort}>
-      <span>Сортировка:</span>
+      <span className={styles.title}>Сортировка:</span>
       <Select
         defaultValue="default"
         dropdownMatchSelectWidth={false}
