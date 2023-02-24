@@ -6,8 +6,12 @@ import styles from './SortPanel.module.scss'
 const SortPanel = () => {
   return (
     <div className={styles.sort_panel}>
+      <div className={styles.drop_filters}>
       <FilterDropDown/>
+      </div>
+      <div className={styles.filters}>
       <SimpleFilters />
+      </div>
       <SortProducts />
     </div>
   )

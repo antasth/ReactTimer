@@ -46,8 +46,11 @@ a {
   }
 }
 
-.ant-space:hover {
 
+.ant-space-compact {
+  width: 110px;
+}
+.ant-space:hover {
   color: var(--dark);
 }
 
