@@ -8,13 +8,16 @@ const SimpleFilters = () => {
     'Спортивные',
     'Классические',
     'Механика',
-    'Сапфировое стекло',
+    'Водостойкие',
   ]
   return (
     <>
       <div className={styles.simple_filters}>
         {filters.map((filter) => (
-          <FilterButton key={filter}>{filter}</FilterButton>
+          <div className={styles.filter}>
+
+            <FilterButton key={filter}>{filter}</FilterButton>
+          </div>
         ))}
       </div>
     </>

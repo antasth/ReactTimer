@@ -1,12 +1,7 @@
 .filter_button {
-  background-color: var(--background-light);
   border: none;
+  background-color: var(--background-light);
   color: var(--dark);
-  background-image: -webkit-linear-gradient(
-    45deg,
-    #f1c40f 50%,
-    transparent 50%
-  );
   background-image: linear-gradient(45deg, #B4F9D9 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
