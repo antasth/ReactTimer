@@ -15,8 +15,8 @@ const ProductCard = () => {
           <div className={styles.brand}>Longines</div>
           <div className={styles.model}>Conquest Classic</div>
         </div>
-        <div className={styles.price}>20 812,00 руб.</div>
-        <div className={styles.credit}>От 1 040,60 руб./мес.</div>
+        <div className={styles.price}>20 812,00 ₽.</div>
+        <div className={styles.credit}>От 1 040,60 ₽./мес.</div>
         <div className={styles.stock}>В наличии</div>
         <div className={styles.button}>
           <Button type="default" className={styles.buy_button}>
