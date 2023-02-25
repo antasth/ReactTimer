@@ -1,0 +1,21 @@
+.pagination {
+  padding: 10px 0;
+  display: flex;
+  justify-content: end;
+
+  .pag_simple {
+    display: none;
+  }
+
+  @media (max-width: 767.98px) {
+    & {
+      justify-content: center;
+    }
+    .pag_simple {
+      display: block;
+    }
+    .pag_default {
+      display: none;
+    }
+  }
+}

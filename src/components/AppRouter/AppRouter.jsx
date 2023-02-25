@@ -1,3 +1,4 @@
+import { Pagination } from '../Pagination/Pagination'
 import { ProductCard } from '../ProductCard/ProductCard'
 import { SortPanel } from '../UI/SortPanel/SortPanel'
 import styles from './AppRouter.module.scss'
@@ -31,6 +32,7 @@ const AppRouter = () => {
             <ProductCard />
             </li>
           </ul>
+        <Pagination />
         </div>
       </div>
     </div>
