@@ -1,5 +1,4 @@
-import { Pagination } from '../Pagination/Pagination'
-import { ProductCard } from '../ProductCard/ProductCard'
+import { Products } from '../Products/Products'
 import { SortPanel } from '../UI/SortPanel/SortPanel'
 import styles from './AppRouter.module.scss'
 
@@ -8,32 +7,7 @@ const AppRouter = () => {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <SortPanel />
-        <div className={styles.products}>
-          <ul className={styles.grid}>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-            <li className={styles.item}>
-            <ProductCard />
-            </li>
-          </ul>
-        <Pagination />
-        </div>
+        <Products />
       </div>
     </div>
   )
