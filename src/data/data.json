@@ -1,0 +1,602 @@
+[
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/610/qhm3qpn3i0wqsoehfwlzt8ga4k9fx29f/t1204071104103@1_240x380.png",
+    "price": "2 717,00 руб.",
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/928/t1274104408100@1_240x380.png",
+    "price": "1 765,00 руб.",
+    "brand": "Tissot",
+    "model": "Gentleman Titanium"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/fc0/7tfbhy1mqctbu6m0897ceueddth8c1oo/t1202101104100@1_240x380.png",
+    "price": "1 388,00 руб.",
+    "brand": "Tissot",
+    "model": "Seastar 1000 36 mm"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/630/g3iqlsfa80rf0731iyte21v2yei60zva/0140077694135_07822O9PEB@1_240x380.png",
+    "price": "11 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/d22/yxbnn9n223g8dn279qapmpgtifzt57lo/0177177444354_0782118@1_240x380.png",
+    "price": "13 390,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five Chronograph"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/7cb/6y63hui6ht4qmsy5a84zqbayhgrahbrm/0177177444354_0752145@1_240x380.png",
+    "price": "12 760,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five Chronograph"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/4c3/ebnz2uj2x14didy3ai15o7fmjm4qtfdi/0175477854084_Set@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Waldenburgerbahn Limited Edition"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/83f/g3jopwjlaxlzj4j48dmf7k972734h3h3/0175477414365_0752058@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/0f3/e36u70kej1zhkntraz6y1kbnkj5bvgk8/0175477414068_0782022@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/133/67u42n9mvlxt8qnl9iosrxujqizo2hqz/0175477414068_0752050@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/7c2/yryfgoh06rf4tqrqc0lxh6e2b37pwxmu/0175477414065_0782022@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/ad5/ed63kfq7uqheit33rypftcatuaezq0bb/0175477414065_0752063@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/8ac/udgftu5n94f4ingqj9wh8ulg8583pd7p/0175477414064_0782022@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/257/vefgtqqimf79ckrk5okhuq8v45chibul/0175477414064_0752065@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f61/nv1hut1l3tl39p21sjlh54kl6d3ze67s/0175477413166_0752074BR@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Bronze Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/839/toxi3vxco7645kdstihj4q7rbig2ymsq/0175477413165_0752058BR@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown Bronze Pointer Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/768/27jn21g7yrcltnlvt207opi6j4ecp38d/0175277604164_0782208@1_240x380.png",
+    "price": "7 400,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/4fc/gkvmwuix5u2crlz2iz6kl2h9cdy1h9o4/0175277604164_0732202LC@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e84/iakoupu2o8oafehqs8gz8tmscs6euwkr/0175277604065_0752207LC@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f02/x2cxf0y5g0utbplqb351bs2o5gble508/0175277604065_0732205LC@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/d4b/z72zium2802zeeirw08q5v4y21scfqav/0175277604063_0782208P@1_240x380.png",
+    "price": "7 400,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/87f/td3lsrzhw3ot90asmie39uqmyqlpe7nh/0175277604063_0752207LC@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/fce/9171s9tysqhi18h5bcvo9b0yfwrg1s1v/0175177614187_Set@1_240x380.png",
+    "price": "8 030,00 руб.",
+    "brand": "Oris",
+    "model": "Okavango Air Rescue Limited Edition"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/b87/kkw2ko1q0wpnk68o2yfx2g139e2i2dd7/0175177614164_0782008@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/202/d4m1965h4lumqqc5jilifru00t0w3bam/0175177614164_0762007LC@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/aa2/54kn6td06vilomuj51b8i4ieu896tjaa/0175177614065_0782008P@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/be2/an0k1k7g2k9chwk29z6iteofag3ywvnv/0175177614065_0762007LC@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/dd9/4tymaahdriqf1l7jh5tvqm0t5zyc9551/0175177614063_0782008P@1_240x380.png",
+    "price": "6 770,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/6f3/xblz8v2s2k4atnq8hfavr2q8pwmlhznk/0175177614063_0762007LC@1_240x380.png",
+    "price": "6 140,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/5cc/ni404276n8e8a8qf2bjrebd62jhgkcok/0174377334159_0742464EB@1_240x380.png",
+    "price": "8 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/130/b7640cw3uldpwd0pklmca4f12oybxztr/0173377664158_0782205PEB@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Relief"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/7bc/rtzuyki198neohb9bvkenwv7gvspatxg/0173377554154_SetRS@1_240x380.png",
+    "price": "12 600,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Depth Gauge"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/014/bm734k9ij5h0eog4tfyylfn038itquzi/0173377554154_SetMB@1_240x380.png",
+    "price": "12 920,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Depth Gauge"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f52/sx3t91dd0yffs5ozwpvkv8b8nxxkt32a/0173377307153_0782415PEB@1_240x380.png",
+    "price": "8 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Titanium Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f1b/ubu2r8tdiwf51yq47ltr6xrn237fqkv1/0173377304153_0742466EB@1_240x380.png",
+    "price": "6 460,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Relief"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/095/7dkjzpu35dycbkjeptxrlxkf2g8mll95/0173377304152_0782405PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/b11/t29febx3u5su48dkodvzq81grdn8dq4k/0173377204354_0782118@1_240x380.png",
+    "price": "8 030,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/867/mnss6mko7fgv13hvksblh2kwhpj6373a/0173377204354_0752145@1_240x380.png",
+    "price": "7 400,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e48/sq10d0rf3ub7tllr577srb41pjg8ffoy/0173377204057_0782118@1_240x380.png",
+    "price": "7 720,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/a43/ykt2qfwaiaqbw8t36xfzikuxofd9qeit/0173377204057_0752145@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e50/pnrm1mc82zb9quduu9qskmyxiq4jmxwt/0173377204054_0752145@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Divers Sixty-Five"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f49/l72dzmbr1vau8477e6vmkev5aub0w3lg/0179877544135_0742465EB@1_240x380.png",
+    "price": "8 510,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis GMT Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/04c/oqcy99g27vi5ysz9zo7wa6qvem3xa2lb/0173377664157_0782205PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/a0e/ywmoz5puo16mezin82f88loxpru3mjoi/0173377664157_0742264FC@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/12e/6wqygwbzqkznn6wx8pxau4jciswt1eq7/0173377664135_0782205PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/750/18p0qtg2h7il79qirnj71jf1fae6flbn/0173377664135_0742264FC@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/021/mhf0lt878o2lyty77xsf1g42dbsvwarv/0173377304152_0752412EB@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/790/46cit76603fbe8b20tnmomm8zxc7fy84/0173377307153_0742464TEB@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Titanium Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/c97/ukonuzq7shmi1sezphasna3mhc8x0xqk/0173377304157_0742464EB@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e01/xtix8cz5k8jp99q2ynwiad89c76z2x1t/0173377304157_0782405PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/37d/dpj3i12su64i15sgqcfu88nsrn01qizk/0173377304153_0782405PEB@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Relief"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/66d/fyizz3qvba0ra42m18mtekpl9i7qxbhw/0173377304153_0742463EB@1_240x380.png",
+    "price": "6 460,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Relief"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/28d/v13b4ii2xjum3bv16n4wbvee18p5sw9x/0175277604065_0782208P@1_240x380.png",
+    "price": "7 400,00 руб.",
+    "brand": "Oris",
+    "model": "Big Crown ProPilot Big Day Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/bec/6lekydw4oeuti7l7kma7jrsbw0h71v4q/0173377304158_0782405PEB@1_240x380.png",
+    "price": "7 090,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Relief"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/656/o9gpyphdbpltkyo1f9ln4pzoq50b29l2/0179877544135_0782405PEB@1_240x380.png",
+    "price": "9 290,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis GMT Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/009/43ompcnnq680j9bz42bosjlmk525qiev/0173377304135_0742465EB@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/98e/4k97figx1dgqd2xiduigjsmuhn1jb6ym/0173377304135_0742464EB@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/402/wf3sn4arfd0012ypoiufl6f9nc4vdyzn/0173377304134_0782405PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/b0e/djtmanrqix7kceymepgp2md9ramjcj4p/0173377304134_0742464EB@1_240x380.png",
+    "price": "6 620,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/b9e/av3bgonm5l3pg1dnjm80nuh8dmq60mg7/0173377304135_0782405PEB@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/8cb/yl2w2k5yfidd95dmyskttsqz5kopkk9v/0140077634135_0742474EB@1_240x380.png",
+    "price": "10 710,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f31/snqx45onc8i42mnqlw9y0fe1icghnq10/0140077634135_0782409PEB@1_240x380.png",
+    "price": "11 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/592/zgkr22ojvt7ak7qyh934m242ebsa27kq/0140077694154_0742274FC@1_240x380.png",
+    "price": "10 710,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/810/n7mtb48hr79z0vv4f0kbksztzaws7prn/0140077694154_0782209PEB@1_240x380.png",
+    "price": "11 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/3e7/3rfl94u9cekeybflq149kwiclbl7b1vo/0140077694157_0742274FC@1_240x380.png",
+    "price": "10 710,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/26d/uihawpyelojax8gy5nvsmuu7locohl36/0140077694157_0782209PEB@1_240x380.png",
+    "price": "11 030,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/477/va1ykzk18tz1q1prjgc584pzlscb2cvk/0140077694135_0742274FC@1_240x380.png",
+    "price": "10 710,00 руб.",
+    "brand": "Oris",
+    "model": "Aquis Date Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/21f/xjuaivr5ok31bvs49md5ee5lz7jzefwp/0140077787153_0772001TLC@1_240x380.png",
+    "price": "13 230,00 руб.",
+    "brand": "Oris",
+    "model": "ProPilot X Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/eaa/e06gmykl1uf47d92egy4j6lm1jpk4cge/0140077787155_0772001TLC@1_240x380.png",
+    "price": "13 230,00 руб.",
+    "brand": "Oris",
+    "model": "ProPilot X Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/aa6/g8bact03jog95klc3ncmtobkec9sss4l/0140077787158_0772001TLC@1_240x380.png",
+    "price": "13 230,00 руб.",
+    "brand": "Oris",
+    "model": "ProPilot X Calibre 400"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/2d6/49kcf11sspuekneu40apqt1rw3vwrk0s/0178177294051_0782188@1_240x380.png",
+    "price": "7 880,00 руб.",
+    "brand": "Oris",
+    "model": "Artelier Complication"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/00f/aeusy54005i475hqn5v6iy67u1l0v2mq/0178177294051_0752166FC@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Artelier Complication"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/f05/uxc7cwprtpj5avljhjb9i5i96v0e9l6x/0178177294031_0782188@1_240x380.png",
+    "price": "7 880,00 руб.",
+    "brand": "Oris",
+    "model": "Artelier Complication"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/62a/0ntw34v4q8z3ri5u949q8jie4polfsv2/0178177294031_0752165FC@1_240x380.png",
+    "price": "7 250,00 руб.",
+    "brand": "Oris",
+    "model": "Artelier Complication"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/08c/zvnu10vttv1g9z124ubmyy4a028d3v5s/l37813787_2@1_240x380.png",
+    "price": "6 880,00 руб.",
+    "brand": "Longines",
+    "model": "Hydroconquest"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e32/uc0i80vwy8yrtbnqp37gvs2raj756zbm/t1256171705102@1_240x380.png",
+    "price": "1 527,00 руб.",
+    "brand": "Tissot",
+    "model": "Supersport Chrono"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/713/ogw3zur6n0enaztw9o2htezl5zvml3h4/t1256171104100@1_240x380.png",
+    "price": "1 626,00 руб.",
+    "brand": "Tissot",
+    "model": "Supersport Chrono"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/fb7/649f342a37kvvgztp29r203jopi1jqac/t1256101705100@1_240x380.png",
+    "price": "1 210,00 руб.",
+    "brand": "Tissot",
+    "model": "Supersport Gent"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/033/wn6bpg7vwnvet49ddxhzweuwn9rrrbmq/t1204071108101@1_240x380.png",
+    "price": "2 717,00 руб.",
+    "brand": "Tissot",
+    "model": "Seastar 1000 Powermatic 80"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/cf5/n0q3ct21ogo5krkxpj76yoan1cv8dktx/t1166173609200@1_240x380.png",
+    "price": "1 269,00 руб.",
+    "brand": "Tissot",
+    "model": "Chrono XL"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/18f/qjf0y4u0a6x8oy4ytm2orxh7y51113sp/t1414171105700@1_240x380.png",
+    "price": "2 558,00 руб.",
+    "brand": "Tissot",
+    "model": "T-Race MotoGP Chronograph 2022 Limited Edition"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/7c2/ust7rsej2t567fjgp27fruao6t1isbp6/t1432103302100@1_240x380.png",
+    "price": "1 031,00 руб.",
+    "brand": "Tissot",
+    "model": "Everytime Lady"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/565/t8gff8uqemw1c9n1x5qclm8aj4y93u7h/t1274071108100@1_240x380.png",
+    "price": "2 955,00 руб.",
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 Open Heart"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/5fe/8p44qixwqut1gno6154b5tn9061647rn/t1274071103101@1_240x380.png",
+    "price": "2 955,00 руб.",
+    "brand": "Tissot",
+    "model": "Gentleman Powermatic 80 Open Heart"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/eee/n1blm6j2dzfxkof9q25ghiwvy462wgp0/t1434103601100@1_240x380.png",
+    "price": "952,00 руб.",
+    "brand": "Tissot",
+    "model": "Everytime Gent"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/5cf/x2juzp16oy3yufwzdkauxbb7wazn5sb6/t1434103302100@1_240x380.png",
+    "price": "1 031,00 руб.",
+    "brand": "Tissot",
+    "model": "Everytime Gent"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/e08/v5ssilg6380c119qiaxhgzrzfdcacxds/t1434101604100@1_240x380.png",
+    "price": "873,00 руб.",
+    "brand": "Tissot",
+    "model": "Everytime Gent"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/28a/e5wxjoim5ey2j25ibiiag5an06wiexh9/t1424621605200@1_240x380.png",
+    "price": "7 080,00 руб.",
+    "brand": "Tissot",
+    "model": "Telemeter 1938"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/d0d/wngvbcwvli73dpntn845c1ddu9jbmpdy/t1424621603200@1_240x380.png",
+    "price": "7 080,00 руб.",
+    "brand": "Tissot",
+    "model": "Telemeter 1938"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/6b1/k9mds2hi6bag4usjpfknmnbx6b7mr5o7/t1374271101100@1_240x380.png",
+    "price": "6 346,00 руб.",
+    "brand": "Tissot",
+    "model": "PRX Automatic Chronograph"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/50d/1i21arhbfx5oybtbso4q200wsva1r6iz/t1374103302100@1_240x380.png",
+    "price": "1 587,00 руб.",
+    "brand": "Tissot",
+    "model": "PRX"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/812/957g3mhqe4vjhbrtybajg1nbtjetcm2u/t1294103626100@1_240x380.png",
+    "price": "1 031,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/456/ee3jgrcbvm2eghcsdp4u6anj2iqndwz5/t1294102203100@1_240x380.png",
+    "price": "1 190,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/0fa/bfp1z0t8cx0bby4h10flnq83ezmlpdps/t1294101103100@1_240x380.png",
+    "price": "1 031,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/95f/21w2m9zu6zsbbbt7odpiqz3dqt3u1igh/t1292102203100@1_240x380.png",
+    "price": "1 111,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream Lady"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/764/uvu77viwr58dbqu29ypy4dlo36iw0vqy/t1292101611100@1_240x380.png",
+    "price": "793,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream Lady"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/564/sn8b4uvt85f6253zrz8d1j6tzdmzgg2n/t1292101103100@1_240x380.png",
+    "price": "952,00 руб.",
+    "brand": "Tissot",
+    "model": "Classic Dream Lady"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/92e/m4da75uqhg6vzmj7fl0l2hf5oe76avtq/t1166173605203@1_240x380.png",
+    "price": "1 269,00 руб.",
+    "brand": "Tissot",
+    "model": "Chrono XL"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/6be/l42qb8y4axicv3unhytmrnyrm5ysgdl2/t0942103311602@1_240x380.png",
+    "price": "1 567,00 руб.",
+    "brand": "Tissot",
+    "model": "Flamingo"
+  },
+  {
+    "img": "https://swisstime.by/upload/resize_cache_alt/iblock/81c/810vdpsr05lj8rwmdlaame5vvzz62f2c/t0064071603301@1_240x380.png",
+    "price": "2 519,00 руб.",
+    "brand": "Tissot",
+    "model": "Le Locle Powermatic 80 Open Heart"
+  }
+]
