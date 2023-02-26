@@ -10,21 +10,23 @@ const SimpleFilters = () => {
     setIsActiveIndex(index)
   }
   return (
-      <div className={styles.simple_filters}>
-        <ul className={styles.filters_list}>
-          {filters.map((filter, index) => (
-            <li key={filter} className={styles.filter}>
-              <FilterButton
-                key={filter}
-                onClick={() => onClickFilter(index)}
-                isActive={activeIndex === index ? true : false}
-              >
-                {filter}
-              </FilterButton>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className={styles.simple_filters}>
+      <ul className={styles.filters_list}>
+        {filters.map((filter, index) => (
+          <li key={filter} className={styles.filter}>
+            <FilterButton
+              key={filter}
+              onClick={() => onClickFilter(index)}
+              className={
+                activeIndex === index ? 'button_active' : 'button_default'
+              }
+            >
+              {filter}
+            </FilterButton>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

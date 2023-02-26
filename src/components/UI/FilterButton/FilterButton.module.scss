@@ -1,11 +1,13 @@
 .button {
   border: none;
-  &__default {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  &_default {
     background-color: #effaff;
     color: var(--dark);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
   }
-  &__active {
+  &_active {
     color: white;
     background: #494368;
   }

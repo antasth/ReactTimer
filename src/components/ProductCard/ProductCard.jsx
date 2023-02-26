@@ -6,7 +6,7 @@ const ProductCard = () => {
     <div className={styles.product_card}>
       <div className={styles.image}>
         <img
-          src={require('../../assets/img/products/Longines_Conquest_Classic.png')}
+          src={'https://i.pinimg.com/564x/7e/e7/02/7ee702fa36ed09c8059f6da1533b53d1.jpg'}
           alt="product_img"
         ></img>
       </div>

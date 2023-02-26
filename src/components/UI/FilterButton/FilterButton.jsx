@@ -1,14 +1,12 @@
 import { Button } from 'antd'
 import styles from './FilterButton.module.scss'
 
-const FilterButton = ({ isActive, onClick, children }) => {
+const FilterButton = ({ onClick, children, className }) => {
   return (
     <Button
       type="default"
       shape="round"
-      className={`${styles.button} ${
-        isActive ? styles.button__active : styles.button__default
-      }`}
+      className={`${styles.button} ${styles[className]}`}
       onClick={onClick}
     >
       {children}
