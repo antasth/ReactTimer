@@ -1,13 +1,12 @@
-.filter_button {
+.button {
   border: none;
-  background-color: var(--background-light);
-  color: var(--dark);
-  background-image: linear-gradient(45deg, #B4F9D9 50%, transparent 50%);
-  background-position: 100%;
-  background-size: 400%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
-}
-.filter_button:hover {
-  background-position: 0;
+  &__default {
+    background-color: #effaff;
+    color: var(--dark);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  }
+  &__active {
+    color: white;
+    background: #494368;
+  }
 }

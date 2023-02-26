@@ -1,9 +1,10 @@
+import logo from '../../../assets/img/timer-logo5.png'
 import styles from './Logo.module.scss'
 
 const Logo = () => {
   return (
     <div className={styles.logo}>
-      <img src={require('../../../assets/img/timer-logo5.png')} alt="logo" />
+      <img src={logo} alt="logo" />
     </div>
   )
 }

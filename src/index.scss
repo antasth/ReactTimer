@@ -5,8 +5,6 @@ body {
   min-height: 100%;
 }
 
-
-
 h1 {
   font-size: 2rem;
 }
@@ -20,7 +18,7 @@ h3 {
 }
 
 body {
-  background: var(--gradient);
+  background: var(--background-main);
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

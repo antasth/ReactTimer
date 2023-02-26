@@ -1,18 +1,30 @@
+import { useState } from 'react'
 import { filters } from '../../../config'
 import { FilterButton } from '../FilterButton/FilterButton'
 import styles from './SimpleFilters.module.scss'
 
 const SimpleFilters = () => {
+  const [activeIndex, setIsActiveIndex] = useState(0)
+
+  const onClickFilter = (index) => {
+    setIsActiveIndex(index)
+  }
   return (
-    <>
       <div className={styles.simple_filters}>
-        {filters.map((filter) => (
-          <div key={filter} className={styles.filter}>
-            <FilterButton key={filter}>{filter}</FilterButton>
-          </div>
-        ))}
+        <ul className={styles.filters_list}>
+          {filters.map((filter, index) => (
+            <li key={filter} className={styles.filter}>
+              <FilterButton
+                key={filter}
+                onClick={() => onClickFilter(index)}
+                isActive={activeIndex === index ? true : false}
+              >
+                {filter}
+              </FilterButton>
+            </li>
+          ))}
+        </ul>
       </div>
-    </>
   )
 }
 

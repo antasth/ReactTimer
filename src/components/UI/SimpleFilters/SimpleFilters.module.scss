@@ -1,9 +1,12 @@
 .simple_filters {
-  width: 55%;
-  display: flex;
-  justify-content: space-between;
+  .filters_list {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 
-  .filter {
-    margin-right: 10px;
+    .filter {
+      margin-right: 10px;
+    }
   }
 }
