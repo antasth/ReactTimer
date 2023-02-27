@@ -12,7 +12,7 @@ const ProductCard = ({ brand, model, imageUrl, price, avalible }) => {
           <div className={styles.brand}>{brand}</div>
           <div className={styles.model}>{model}</div>
         </div>
-        <div className={styles.price}>{price},00 ₽.</div>
+        <div className={styles.price}>{price} ₽.</div>
         <div className={styles.credit}>От {Math.round(price / 18)} ₽./мес.</div>
         <div className={styles.stock}>
           {avalible ? 'В наличии' : 'Нет в наличии'}

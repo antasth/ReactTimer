@@ -1,7 +1,1090 @@
 {
   "watches": [
     {
-      "id": 0,
+      "id": 1,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/c7/d2/f2/c7d2f239acebcf191386feed291ee71f.jpg",
+        "https://i.pinimg.com/564x/a2/d3/e4/a2d3e462f1ca99cdd06b2982d4876729.jpg"
+      ],
+      "brand": "Longines ",
+      "model": "C-Pink",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Золотой",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Кожа",
+      "waterresist": 0,
+      "year": 2022,
+      "warranty": 1,
+      "price": "$8731.36",
+      "title": "Швейцарские Механические Male часы Longines  на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 2,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/a0/52/a8/a052a8972fd72a145736b30f2f0de44e.jpg"
+      ],
+      "brand": "Oris",
+      "model": "Classic Dream Lady",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Голубой",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Кожа",
+      "waterresist": 20,
+      "year": 2005,
+      "warranty": 2,
+      "price": "$5758.47",
+      "title": "Швейцарские Механические Male часы Oris на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 3,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/4a/3f/41/4a3f4173c5e32394a5ef217532ae5dde.jpg",
+        "https://i.pinimg.com/564x/72/17/7b/72177b9860408f690d004e7b698400b8.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "PRC 200 Chronograph",
+      "gender": "Non-binary",
+      "type": "Спортивные",
+      "color": "Синий",
+      "glass": "Органическое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Сталь",
+      "waterresist": 0,
+      "year": 2002,
+      "warranty": 2,
+      "price": "$8326.60",
+      "title": "Швейцарские Кварцевые Non-binary часы Wenger на Стальом ремне",
+      "avalible": true
+    },
+    {
+      "id": 4,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/23/f7/1f/23f71fae9fd457b556add6d345f43bf9.jpg",
+        "https://i.pinimg.com/564x/ed/c8/95/edc895894d686148bc86c2ff98f28c2d.jpg"
+      ],
+      "brand": "Calvin Klein ",
+      "model": "CLEARLY RED STRIPED",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Голубой",
+      "glass": "Органическое",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Золото",
+      "waterresist": 200,
+      "year": 2002,
+      "warranty": 1,
+      "price": "$7233.43",
+      "title": "Швейцарские Механические Male часы Calvin Klein  на Золотоом ремне",
+      "avalible": true
+    },
+    {
+      "id": 5,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/4e/77/f5/4e77f59e70d905a3e89d8832aad5d19b.jpg",
+        "https://i.pinimg.com/564x/a2/2f/ba/a22fbaac34b14bac5af9a212a3780768.jpg"
+      ],
+      "brand": "Tag Heuer",
+      "model": "Classic Dream",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Черный",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Кожа",
+      "waterresist": 50,
+      "year": 2020,
+      "warranty": 10,
+      "price": "$12097.11",
+      "title": "Швейцарские Механические Male часы Tag Heuer  на Кожаом ремне",
+      "avalible": true
+    },
+    {
+      "id": 6,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/22/d0/aa/22d0aa25bdf15bd64acb007285a19d06.jpg",
+        "https://i.pinimg.com/564x/7a/d2/5f/7ad25f1d55d68ff31775b882d677adf3.jpg"
+      ],
+      "brand": "Tag Heuer ",
+      "model": "Primaluna",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Белый",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Титан",
+      "waterresist": 50,
+      "year": 2022,
+      "warranty": 3,
+      "price": "$21378.79",
+      "title": "Швейцарские Кварцевые Female часы Tag Heuer  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 7,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/bf/e1/40/bfe140f98469a7b6e8bb74bb275f3b39.jpg",
+        "https://i.pinimg.com/564x/07/34/44/0734447ecf41d0dc66ef9a11767b0585.jpg"
+      ],
+      "brand": "Swatch",
+      "model": "BLA_DIV",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Черный",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Кожа",
+      "waterresist": 500,
+      "year": 2020,
+      "warranty": 2,
+      "price": "$2112.10",
+      "title": "Швейцарские Механические Male часы Swatch  на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 8,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/39/11/07/39110703dc0d7e7ed38920cb47c32771.jpg",
+        "https://i.pinimg.com/564x/84/c1/84/84c1846b78347864f3c3b9b6f22ca965.jpg"
+      ],
+      "brand": "Tag Heuer ",
+      "model": "Artelier Complication",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Синий",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Пластик",
+      "waterresist": 100,
+      "year": 2020,
+      "warranty": 10,
+      "price": "$6439.67",
+      "title": "Швейцарские Кварцевые Female часы Tag Heuer  на Пластиком ремне",
+      "avalible": true
+    },
+    {
+      "id": 9,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/1b/18/a8/1b18a84f8ac8c591e3338c026dba66f1.jpg",
+        "https://i.pinimg.com/564x/e1/3e/dc/e13edc0cdb6bb09c365e1f212850f211.jpg"
+      ],
+      "brand": "Tag Heuer ",
+      "model": "Bellissima Small Lady",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Синий",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Пластик",
+      "waterresist": 0,
+      "year": 2020,
+      "warranty": 10,
+      "price": "$16689.08",
+      "title": "Швейцарские Механические Female часы Tag Heuer  на Пластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 10,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/57/73/00/577300dfcb536f9b632c4fc57138b236.jpg",
+        "https://i.pinimg.com/564x/b2/a6/18/b2a618f7eaf8925ffb04501698f76c0f.jpg"
+      ],
+      "brand": "Claude Bernard ",
+      "model": "Gentleman Titanium",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Белый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Кожа",
+      "waterresist": 100,
+      "year": 2018,
+      "warranty": 10,
+      "price": "$4890.87",
+      "title": "Швейцарские Механические Male часы Claude Bernard  на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 11,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/98/61/ee/9861eecb3b1b45dde3fdbfc907f2032c.jpg"
+      ],
+      "brand": "Claude Bernard",
+      "model": "DATELINE",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Зеленый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Титан",
+      "waterresist": 100,
+      "year": 2011,
+      "warranty": 10,
+      "price": "$14486.53",
+      "title": "Швейцарские Механические Male часы Claude Bernard  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 12,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/c6/b7/aa/c6b7aa65ed8eeed500d32859dfa38e79.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "BLA_DIV",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Синий",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 500,
+      "year": 2020,
+      "warranty": 1,
+      "price": "$16792.39",
+      "title": "Швейцарские Механические Male часы Hamilton  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 13,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/e2/52/00/e252006fa9fa054caca6d1ac72c84250.jpg"
+      ],
+      "brand": "Claude Bernard ",
+      "model": "DATELINE",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Синий",
+      "glass": "Органическое",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Титан",
+      "waterresist": 100,
+      "year": 2015,
+      "warranty": 1,
+      "price": "$10401.82",
+      "title": "Швейцарские Механические Male часы Claude Bernard  на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 14,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/30/44/da/3044da2b1f68a704645fc90f782e7ee1.jpg",
+        "https://i.pinimg.com/564x/c6/de/34/c6de34d0cbace2781ea829d8d29cc356.jpg"
+      ],
+      "brand": "Swatch",
+      "model": "Aquaracer Professional 300",
+      "gender": "Female",
+      "type": "Спортивные",
+      "color": "Зеленый",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Сталь",
+      "band": "Пластик",
+      "waterresist": 20,
+      "year": 2019,
+      "warranty": 10,
+      "price": "$1560.41",
+      "title": "Швейцарские Кварцевые Female часы Swatch  на Пластиком ремне",
+      "avalible": true
+    },
+    {
+      "id": 15,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/8f/28/38/8f2838d34074001685d309aa23dc761e.jpg"
+      ],
+      "brand": "Swatch",
+      "model": "Jazzmaster Auto",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Серебристый",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Титан",
+      "waterresist": 0,
+      "year": 2015,
+      "warranty": 1,
+      "price": "$16431.01",
+      "title": "Швейцарские Механические Male часы Swatch  на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 16,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/5a/3c/3c/5a3c3ca046bddbfea9a8cb050458e2ee.jpg",
+        "https://i.pinimg.com/564x/d2/92/f1/d292f1573b21c1a7360259caea923c90.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "Chrono XL",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Серебристый",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Золото",
+      "waterresist": 200,
+      "year": 2019,
+      "warranty": 3,
+      "price": "$11723.32",
+      "title": "Швейцарские Кварцевые Male часы Hamilton  на Золотоом ремне",
+      "avalible": true
+    },
+    {
+      "id": 17,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/3a/d1/9a/3ad19a1b1671ba4daf7b8f3881c75044.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Porto Small Lady",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Черный",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Биопластик",
+      "waterresist": 200,
+      "year": 2020,
+      "warranty": 1,
+      "price": "$10136.21",
+      "title": "Швейцарские Механические Female часы Longines  на Биопластиком ремне",
+      "avalible": true
+    },
+    {
+      "id": 18,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/2b/c0/15/2bc0159c637007274ea248393e34e311.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "Divers Sixty-Five Chronograph",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Голубой",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Сталь",
+      "waterresist": 500,
+      "year": 2011,
+      "warranty": 3,
+      "price": "$21020.93",
+      "title": "Швейцарские Механические Female часы Wenger на Стальом ремне",
+      "avalible": true
+    },
+    {
+      "id": 19,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/68/6c/f5/686cf520dec1ee031a9f242306ba2587.jpg"
+      ],
+      "brand": "Claude Bernard ",
+      "model": "Big Crown ProPilot Big Day Date",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Зеленый",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Сталь",
+      "waterresist": 20,
+      "year": 2009,
+      "warranty": 10,
+      "price": "$13808.14",
+      "title": "Швейцарские Механические Male часы Claude Bernard  на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 20,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/35/73/5b/35735bf92cfe4b6fd1743b21e9e0bb67.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "T-Race",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Белый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Золото",
+      "waterresist": 500,
+      "year": 2005,
+      "warranty": 2,
+      "price": "$11544.38",
+      "title": "Швейцарские Механические Female часы Hamilton  на Золотоом ремне",
+      "avalible": true
+    },
+    {
+      "id": 21,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/36/97/36/369736b3126481cce24e3b432c2d002e.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Carson Premium Lady Moonphase",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Зеленый",
+      "glass": "Органическое",
+      "mechanism": "Кварцевые",
+      "body": "Биокерамика",
+      "band": "Золото",
+      "waterresist": 100,
+      "year": 2005,
+      "warranty": 5,
+      "price": "$1936.34",
+      "title": "Швейцарские Кварцевые Female часы Longines  на Золотоом ремне",
+      "avalible": true
+    },
+    {
+      "id": 22,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/e3/fa/3a/e3fa3ab71be3075597f6c10192e5f4b3.jpg"
+      ],
+      "brand": "Longines ",
+      "model": "Carson Premium Lady Moonphase",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Голубой",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Сталь",
+      "band": "Биопластик",
+      "waterresist": 20,
+      "year": 2002,
+      "warranty": 2,
+      "price": "$14940.32",
+      "title": "Швейцарские Кварцевые Female часы Longines  на Биопластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 23,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/7a/b5/2e/7ab52ee5d13a707b9f99d2ee7f993f1b.jpg",
+        "https://i.pinimg.com/564x/f0/2c/33/f02c33c5b39c4eee6992d1171258b3f1.jpg"
+      ],
+      "brand": "Tissot",
+      "model": "MINIMAL LINE PINK",
+      "gender": "Genderfluid",
+      "type": "Спортивные",
+      "color": "Черный",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Золото",
+      "waterresist": 500,
+      "year": 2022,
+      "warranty": 2,
+      "price": "$9968.11",
+      "title": "Швейцарские Механические Genderfluid часы Tissot  на Золотоом ремне",
+      "avalible": true
+    },
+    {
+      "id": 24,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/84/85/10/848510a1afda184fab111fa188dab46b.jpg"
+      ],
+      "brand": "Tag Heuer",
+      "model": "T-Race MotoGP Chronograph 2022 Limited Edition",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Зеленый",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Биопластик",
+      "waterresist": 200,
+      "year": 2019,
+      "warranty": 10,
+      "price": "$6517.41",
+      "title": "Швейцарские Кварцевые Female часы Tag Heuer  на Биопластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 25,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/87/20/e6/8720e66f0c956c523f21d1495aa84ae7.jpg"
+      ],
+      "brand": "Victorinox",
+      "model": "T-Race MotoGP Chronograph 2022 Limited Edition",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Зеленый",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Сталь",
+      "waterresist": 100,
+      "year": 2022,
+      "warranty": 5,
+      "price": "$18994.28",
+      "title": "Швейцарские Кварцевые Female часы Victorinox  на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 26,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/00/eb/c8/00ebc8f7073bfde1b7ca63df8fd25332.jpg"
+      ],
+      "brand": "Oris",
+      "model": "PRX 35mm",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Голубой",
+      "glass": "Органическое",
+      "mechanism": "Кварцевые",
+      "body": "Биокерамика",
+      "band": "Сталь",
+      "waterresist": 500,
+      "year": 2018,
+      "warranty": 2,
+      "price": "$4539.19",
+      "title": "Швейцарские Кварцевые Female часы Oris на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 27,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/e9/6b/b7/e96bb7caa4ec8fd29472075aeb7cbde6.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "ProPilot X Calibre 400",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Синий",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Сталь",
+      "waterresist": 20,
+      "year": 2018,
+      "warranty": 5,
+      "price": "$14732.65",
+      "title": "Швейцарские Механические Male часы Wenger на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 28,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/84/8c/cb/848ccb0e7279f0176dbc2412c4dfbc1e.jpg"
+      ],
+      "brand": "Tissot",
+      "model": "T-My Lady Automatic 18k Gold",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Зеленый",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Сталь",
+      "waterresist": 100,
+      "year": 2015,
+      "warranty": 2,
+      "price": "$6566.39",
+      "title": "Швейцарские Кварцевые Female часы Tissot  на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 29,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/92/4d/e8/924de88dccd26d492dc83a3ececbffdc.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "Intercyderal",
+      "gender": "Female",
+      "type": "Спортивные",
+      "color": "Золотой",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Сталь",
+      "waterresist": 200,
+      "year": 2002,
+      "warranty": 2,
+      "price": "$5175.84",
+      "title": "Швейцарские Механические Female часы Wenger на Стальом ремне",
+      "avalible": true
+    },
+    {
+      "id": 30,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/16/79/05/1679053711442382a61bac4d215fda1a.jpg"
+      ],
+      "brand": "Claude Bernard",
+      "model": "BLUENRED",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Синий",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Сталь",
+      "band": "Титан",
+      "waterresist": 0,
+      "year": 2007,
+      "warranty": 3,
+      "price": "$2653.01",
+      "title": "Швейцарские Кварцевые Male часы Claude Bernard  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 31,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/74/97/b4/7497b425af8e7b13259d96e220c9c924.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Seastar 1000 36mm",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Голубой",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Биопластик",
+      "waterresist": 20,
+      "year": 2018,
+      "warranty": 1,
+      "price": "$14997.14",
+      "title": "Швейцарские Механические Male часы Longines  на Биопластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 32,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/9d/a6/f7/9da6f7effcfe3bb593a65941cd400587.jpg"
+      ],
+      "brand": "Claude Bernard",
+      "model": "SMAK!",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Зеленый",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Сталь",
+      "waterresist": 500,
+      "year": 2009,
+      "warranty": 1,
+      "price": "$22189.94",
+      "title": "Швейцарские Механические Male часы Claude Bernard  на Стальом ремне",
+      "avalible": true
+    },
+    {
+      "id": 33,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/58/19/19/581919b999f6a76ebc01a924ea0c1816.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "Seastar 1000 36 mm",
+      "gender": "Agender",
+      "type": "Спортивные",
+      "color": "Белый",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Сталь",
+      "waterresist": 100,
+      "year": 2005,
+      "warranty": 2,
+      "price": "$9170.18",
+      "title": "Швейцарские Кварцевые Agender часы Wenger на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 34,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/d3/48/0c/d3480cc7afb31f0ae5104751f7c0efbe.jpg"
+      ],
+      "brand": "Tissot",
+      "model": "PRX Automatic Chronograph",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Черный",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Биокерамика",
+      "band": "Пластик",
+      "waterresist": 0,
+      "year": 2020,
+      "warranty": 2,
+      "price": "$13868.74",
+      "title": "Швейцарские Кварцевые Male часы Tissot  на Пластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 35,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/f0/a6/74/f0a67401dccfa60ac3bef867b548871a.jpg"
+      ],
+      "brand": "Calvin Klein",
+      "model": "Gentleman Titanium",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Золотой",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Сталь",
+      "waterresist": 100,
+      "year": 2011,
+      "warranty": 2,
+      "price": "$7148.56",
+      "title": "Швейцарские Механические Male часы Calvin Klein  на Стальом ремне",
+      "avalible": false
+    },
+    {
+      "id": 36,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/86/0e/49/860e490ee9a1467ac63e1597d6a77464.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "Big Crown Bronze Pointer Date",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Белый",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Сталь",
+      "band": "Кожа",
+      "waterresist": 500,
+      "year": 2020,
+      "warranty": 2,
+      "price": "$1352.80",
+      "title": "Швейцарские Кварцевые Male часы Hamilton  на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 37,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/d8/4c/1d/d84c1de08a32b1f7c246f73a317a1270.jpg"
+      ],
+      "brand": "Oris",
+      "model": "POW WOW",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Золотой",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 50,
+      "year": 2005,
+      "warranty": 10,
+      "price": "$5244.94",
+      "title": "Швейцарские Кварцевые Male часы Oris на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 38,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/d9/50/87/d9508766aea7b7876ed7b16b7c56e919.jpg"
+      ],
+      "brand": "Tissot",
+      "model": "Seastar 1000 Powermatic 80",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Черный",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Титан",
+      "waterresist": 0,
+      "year": 2005,
+      "warranty": 2,
+      "price": "$21201.90",
+      "title": "Швейцарские Кварцевые Female часы Tissot  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 39,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/44/b1/32/44b132f7256ac6ced6d62be95583fcb7.jpg"
+      ],
+      "brand": "Calvin Klein",
+      "model": "CLEARLY YELLOW STRIPED",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Серебристый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 500,
+      "year": 2009,
+      "warranty": 2,
+      "price": "$16048.83",
+      "title": "Швейцарские Механические Female часы Calvin Klein  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 40,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/a5/10/d0/a510d0245dfe8ec39ef9609248a65822.jpg"
+      ],
+      "brand": "Victorinox",
+      "model": "Luxury Powermatic 80",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Серебристый",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 0,
+      "year": 2011,
+      "warranty": 2,
+      "price": "$5170.74",
+      "title": "Швейцарские Механические Male часы Victorinox  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 41,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/b5/f4/84/b5f48471c3e31d4353b79a37e20a8453.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "Artelier Complication",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Синий",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Сталь",
+      "waterresist": 100,
+      "year": 2009,
+      "warranty": 10,
+      "price": "$22890.74",
+      "title": "Швейцарские Кварцевые Male часы Hamilton  на Стальом ремне",
+      "avalible": true
+    },
+    {
+      "id": 42,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/a1/a5/c6/a1a5c6a45946bfbe7f9e6bca2b5d4c82.jpg"
+      ],
+      "brand": "Oris",
+      "model": "POW WOW",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Серебристый",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Кожа",
+      "waterresist": 50,
+      "year": 2022,
+      "warranty": 10,
+      "price": "$7008.39",
+      "title": "Швейцарские Механические Female часы Oris на Кожаом ремне",
+      "avalible": true
+    },
+    {
+      "id": 43,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/76/e2/c9/76e2c9f2fbbf658660118750ceca27a6.jpg"
+      ],
+      "brand": "Tag Heuer",
+      "model": "Big Crown ProPilot Big Date",
+      "gender": "Male",
+      "type": "Спортивные",
+      "color": "Золотой",
+      "glass": "Органическое",
+      "mechanism": "Кварцевые",
+      "body": "Сталь",
+      "band": "Кожа",
+      "waterresist": 0,
+      "year": 2011,
+      "warranty": 10,
+      "price": "$15896.16",
+      "title": "Швейцарские Кварцевые Male часы Tag Heuer  на Кожаом ремне",
+      "avalible": false
+    },
+    {
+      "id": 44,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/20/bb/44/20bb44e6d2e3cb523aac9a05e453b125.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Aquis Date Calibre 400",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Зеленый",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 500,
+      "year": 2018,
+      "warranty": 10,
+      "price": "$5829.12",
+      "title": "Швейцарские Механические Female часы Longines  на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 45,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/74/97/b4/7497b425af8e7b13259d96e220c9c924.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Aquis Date Calibre 400",
+      "gender": "Male",
+      "type": "Скелетоны",
+      "color": "Золотой",
+      "glass": "Минеральное",
+      "mechanism": "Кварцевые",
+      "body": "Золото",
+      "band": "Биопластик",
+      "waterresist": 500,
+      "year": 2020,
+      "warranty": 3,
+      "price": "$15529.45",
+      "title": "Швейцарские Кварцевые Male часы Longines  на Биопластиком ремне",
+      "avalible": true
+    },
+    {
+      "id": 46,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/5c/fd/f8/5cfdf832c8d6222a61e7ac82d03be8fb.jpg"
+      ],
+      "brand": "Swatch",
+      "model": "Supersport Chrono",
+      "gender": "Male",
+      "type": "Классические",
+      "color": "Белый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Золото",
+      "band": "Титан",
+      "waterresist": 100,
+      "year": 2002,
+      "warranty": 3,
+      "price": "$23969.42",
+      "title": "Швейцарские Механические Male часы Swatch  на Титаном ремне",
+      "avalible": false
+    },
+    {
+      "id": 47,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/c3/94/4b/c3944b90ce5e6922f51ac860d6676a90.jpg"
+      ],
+      "brand": "Hamilton",
+      "model": "CLEARLY BLACK STRIPED",
+      "gender": "Female",
+      "type": "Классические",
+      "color": "Зеленый",
+      "glass": "Акриловое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "band": "Титан",
+      "waterresist": 200,
+      "year": 2019,
+      "warranty": 3,
+      "price": "$10566.48",
+      "title": "Швейцарские Кварцевые Female часы Hamilton  на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 48,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/2f/12/ec/2f12ec4dd2224a83e34e1e68abba9f75.jpg"
+      ],
+      "brand": "Victorinox",
+      "model": "Khaki Field Mechanical",
+      "gender": "Female",
+      "type": "Спортивные",
+      "color": "Золотой",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "band": "Биопластик",
+      "waterresist": 50,
+      "year": 2005,
+      "warranty": 2,
+      "price": "$12186.84",
+      "title": "Швейцарские Механические Female часы Victorinox  на Биопластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 49,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/23/8b/2b/238b2b7f8ced1f0dd4c3391dfab01f7d.jpg"
+      ],
+      "brand": "Longines",
+      "model": "Luxury Powermatic 80",
+      "gender": "Female",
+      "type": "Спортивные",
+      "color": "Черный",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Биокерамика",
+      "band": "Биопластик",
+      "waterresist": 0,
+      "year": 2022,
+      "warranty": 2,
+      "price": "$2036.34",
+      "title": "Швейцарские Кварцевые Agender часы Longines  на Биопластиком ремне",
+      "avalible": false
+    },
+    {
+      "id": 50,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/7b/db/e2/7bdbe25c57086f536302624445bfbd76.jpg"
+      ],
+      "brand": "Swatch",
+      "model": "Chemin Des Tourelles Powermatic 80",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Белый",
+      "glass": "Минеральное",
+      "mechanism": "Механические",
+      "body": "Сталь",
+      "band": "Кожа",
+      "waterresist": 0,
+      "year": 2009,
+      "warranty": 1,
+      "price": "$4725.38",
+      "title": "Швейцарские Механические Female часы Swatch  на Кожаом ремне",
+      "avalible": true
+    },
+    {
+      "id": 100,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/a0/52/a8/a052a8972fd72a145736b30f2f0de44e.jpg"
+      ],
+      "brand": "Wenger",
+      "model": "Chrono Xl Vintage",
+      "gender": "Female",
+      "type": "Скелетоны",
+      "color": "Серебристый",
+      "glass": "Акриловое",
+      "mechanism": "Механические",
+      "body": "Биокерамика",
+      "band": "Титан",
+      "waterresist": 20,
+      "year": 2002,
+      "warranty": 2,
+      "price": "$23243.45",
+      "title": "Швейцарские Механические Female часы Wenger на Титаном ремне",
+      "avalible": true
+    },
+    {
+      "id": 101,
       "imageUrl": [
         "https://i.pinimg.com/564x/7e/e7/02/7ee702fa36ed09c8059f6da1533b53d1.jpg"
       ],
@@ -12,19 +1095,18 @@
       "type": "Классические",
       "color": "Золотой",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Сталь + Золото",
       "watchband": "Сталь + Золото",
       "waterResist": "50",
       "functions": ["Дата", "Хронограф"],
       "year": 2022,
-      "price": 20812,
+      "price": "$2243.45",
       "avalible": true,
-      "warranty": "2",
-      "description": "Название коллекции Conquest было запатентовано ВОИС (Всемирной Организацией Интеллектуальной Собственности) 25 мая 1954 года. С тех пор имя использовалось для множества удачных моделей, создаваемых брендом Longines на протяжении многих лет. Часы отражают ценности, которые исповедует Longines: элегантность, точность, верность традициям. Они оснащаются часовыми механизмами с автоматическим подзаводом и будучи абсолютно современными, остаются не подвластны времени! Сегодня Conquest Classic пополняет коллекции бренда, олицетворяющего красоту классики, которые помогли завоевать Longines безупречную репутацию и ведущие позиции по всему миру. Модели данной коллекции являются официальными часами множества спортивных событий - конных и горнолыжных турниров, соревнований по художественной и спортивной гимнастике, состязаний в стрельбе из лука."
+      "warranty": "2"
     },
     {
-      "id": 1,
+      "id": 102,
       "imageUrl": [
         "https://i.pinimg.com/564x/ea/39/6a/ea396a946e5bbd9f359636795cc3ac3d.jpg"
       ],
@@ -35,19 +1117,18 @@
       "type": "Классические",
       "color": "Черный",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Сталь + Золото",
       "watchband": "Сталь + Золото",
       "waterResist": "50",
       "functions": ["Дата", "Хронограф"],
       "year": 2022,
-      "price": 20000,
+      "price": "$2263.35",
       "avalible": true,
-      "warranty": "2",
-      "description": "Название коллекции Conquest было запатентовано ВОИС (Всемирной Организацией Интеллектуальной Собственности) 25 мая 1954 года. С тех пор имя использовалось для множества удачных моделей, создаваемых брендом Longines на протяжении многих лет. Часы отражают ценности, которые исповедует Longines: элегантность, точность, верность традициям. Они оснащаются часовыми механизмами с автоматическим подзаводом и будучи абсолютно современными, остаются не подвластны времени! Сегодня Conquest Classic пополняет коллекции бренда, олицетворяющего красоту классики, которые помогли завоевать Longines безупречную репутацию и ведущие позиции по всему миру. Модели данной коллекции являются официальными часами множества спортивных событий - конных и горнолыжных турниров, соревнований по художественной и спортивной гимнастике, состязаний в стрельбе из лука."
+      "warranty": "2"
     },
     {
-      "id": 2,
+      "id": 103,
       "imageUrl": [
         "https://i.pinimg.com/564x/e9/1f/91/e91f91f0f08cef97971424557dcf4996.jpg"
       ],
@@ -58,19 +1139,18 @@
       "type": "Классические",
       "color": "Серебристый",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Сталь",
       "watchband": "Сталь",
       "waterResist": "50",
       "functions": ["Дата"],
       "year": 2023,
-      "price": 2000,
+      "price": "$2679.31",
       "avalible": false,
-      "warranty": "2",
-      "description": "В 1954 году Longines выпустил линейку Conquest, отдавая дань тем, кто решился на открытия, и тем, кого бренд поддерживал на их пути. Conquest это часы для любителей спорта, сочетающие в себе функциональность и элегантность. Коллекция представлена как мужскими, так и женскими моделями с кварцевым или механическим калибром. Модели доступны на кожаном ремне или на браслете из нержавеющей стали. Некоторые модели имеют дополнительные функции тахиметра, хронографа с индикацией 1/100 секунды, индикации 24 часов и др. Conquest определенно отвечает самым взыскательным требованиям людей, которые ищут надежные часы, где бы они ни находились!"
+      "warranty": "2"
     },
     {
-      "id": 3,
+      "id": 104,
       "imageUrl": [
         "https://i.pinimg.com/564x/c2/31/9e/c2319e08705919d9d98250ab0890bae7.jpg"
       ],
@@ -81,19 +1161,18 @@
       "type": "Классические",
       "color": "Белый",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Сталь",
       "watchband": "Кожа",
       "waterResist": "0",
       "functions": ["Индикатор заряда"],
       "year": 2018,
-      "price": 1790,
+      "price": "$5743.95",
       "avalible": true,
-      "warranty": "2",
-      "description": "Как указывает название часов, им суждено быть беспроигрышным аксессуаром в любой ситуации. Tissot Everytime способны удовлетворить весь спектр настроений и вкусов, благодаря широкому разнообразию моделей, размеров и стилей. Круглый корпус может быть представлен в трёх размерах, и выполнен из стали или в PVD покрытии цвета розового или желтого золота. Вневременной классический дизайн циферблата подчеркивают римские, а в некоторых моделях арабские цифры. Вместе с тем стильный минимализм циферблата с часовыми индексами отражает исключительную современность этой линейки часов, а различные вариации браслетов и ремешков оставляют место для экспериментов!"
+      "warranty": "2"
     },
     {
-      "id": 4,
+      "id": 105,
       "imageUrl": [
         "https://i.pinimg.com/564x/07/45/a5/0745a5fd5eaaded32feb9af9cd4d5ca3.jpg"
       ],
@@ -104,19 +1183,18 @@
       "type": "Классические",
       "color": "Белый",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "PVD покрытие",
       "watchband": "Кожа",
       "waterResist": "0",
       "functions": ["Дата"],
       "year": 2020,
-      "price": 8990,
+      "price": "$12263.46",
       "avalible": true,
-      "warranty": "2",
-      "description": "LONGINES PRÉSENCE - Ваши первые часы Longines: превосходное сочетание цена-качество! Широкий спектр моделей. Уникальный стиль классической элегантности, неподвластной времени! Объемный корпус отличают сдержанные плавные линии и смягченные очертания. Циферблат с индексами или римскими цифрами обеспечивает отличную читаемость! Часы выполнены из высококачественной стали или в PVD покрытии, доступны также модели на кожаных ремешках. Красивый и классический дизайн этой коллекции добавит нотку утонченной элегантности в Ваш повседневный образ!"
+      "warranty": "2"
     },
     {
-      "id": 5,
+      "id": 106,
       "imageUrl": [
         "https://i.pinimg.com/564x/72/f9/3a/72f93af09390acfb0538f861761e95e5.jpg",
         "https://i.pinimg.com/564x/fc/e6/2e/fce62e583ae118f5d454e9a85caa5ccd.jpg",
@@ -129,19 +1207,18 @@
       "type": "Классические",
       "color": "Черный",
       "glass": "Сапфировое",
-      "mechanism": "Механический",
+      "mechanism": "Механические",
       "body": "Сталь",
       "watchband": "Кожа",
       "waterResist": "300",
       "functions": ["Время"],
       "year": 2022,
-      "price": 9300,
+      "price": "$15243.90",
       "avalible": true,
-      "warranty": "2",
-      "description": "На протяжении 185 лет своего существования бренд Longines создавал модели, которые становились знаковыми для истории часового дизайна. Марка часто обращается к своему историческому наследию, создавая модели коллекции Heritage, которая служит воплощением концепции стиля на все времена. Любовь бренда Longines к историческим моделям, хранящимся в архивах музея, прослеживается в постоянном расширении линейки моделей Heritage. Часы из коллекции Heritage - подлинная дань уважения часовых мастеров Longines новаторскому духу и мастерству, передающимся из поколения в поколение. Подобно связи времен, они соединяют традиции часового мастерства с новыми технологиями!"
+      "warranty": "2"
     },
     {
-      "id": 6,
+      "id": 107,
       "imageUrl": [
         "https://i.pinimg.com/564x/f6/47/ca/f647ca6ad36c7a43b74c24685ce37ff4.jpg",
         "https://i.pinimg.com/564x/62/55/d3/6255d3e79f4860160cf839021685c530.jpg"
@@ -153,19 +1230,18 @@
       "type": "Спортивные",
       "color": "Черный",
       "glass": "Органическое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Пластик",
       "watchband": "Силикон",
       "waterResist": "0",
       "functions": ["Дата", "День недели"],
       "year": 2021,
-      "price": 590,
+      "price": "$573.77",
       "avalible": true,
-      "warranty": "2",
-      "description": "Изюминка этой модели часов New Gent BIOSOURCED заключается в интересных розовых акцентах, а также окошке даты в положении «3 часа» на циферблате. Черный принт как на силиконовом ремешке, так и на корпусе из био-материала и пластиковой пряжке подчеркивает насыщенные матово-розовые проблески на часах."
+      "warranty": "2"
     },
     {
-      "id": 7,
+      "id": 108,
       "imageUrl": [
         "https://i.pinimg.com/564x/35/18/99/35189938539bdd2e5ede26045bfb79f0.jpg",
         "https://i.pinimg.com/564x/53/1d/6f/531d6f1ef8b0111a8f32b93f340d09c7.jpg"
@@ -177,19 +1253,18 @@
       "type": "Спортивные",
       "color": "Синий",
       "glass": "Органическое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Пластик",
       "watchband": "Силикон",
       "waterResist": "30",
       "functions": ["Дата"],
       "year": 2020,
-      "price": 5340,
+      "price": "$5683.25",
       "avalible": false,
-      "warranty": "2",
-      "description": "Часы SWATCH BLUE TRIP SO29K400 — восхитительная модель, которая привлекает внимание красивым и оригинальным дизайном. Белые стрелки и тонкие индексы придают эффектную внешность темно-синему циферблату с небольшим окошком даты. Прозрачный корпус швейцарских часов SWATCH изготовлен из пластика, который имеет биологическое происхождение и оснащен точным кварцевым механизмом.Дополняет эти часы SWATCH прозрачный ремешок с синим верхом из силикона."
+      "warranty": "2"
     },
     {
-      "id": 7,
+      "id": 109,
       "imageUrl": [
         "https://i.pinimg.com/564x/89/59/30/895930652d23c993225751e49fe0362e.jpg",
         "https://i.pinimg.com/564x/d1/b8/6e/d1b86e08c917003871b7bc692abbc766.jpg"
@@ -201,19 +1276,18 @@
       "type": "Спортивные",
       "color": "Голубой",
       "glass": "Органическое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Биокерамика",
       "watchband": "Биопластик",
       "waterResist": "0",
       "functions": ["Скелетоны"],
       "year": 2023,
-      "price": 455,
+      "price": "$5788.45",
       "avalible": true,
-      "warranty": "2",
-      "description": "Прекрасный образец часов, выполненных полностью из материалов биологического происхождения: открытый механизм и биокерамика, которая создает ощущение шелковистости. Впечатляющий дизайн голубого цвета — инновация в своем лучшем проявлении."
+      "warranty": "2"
     },
     {
-      "id": 8,
+      "id": 110,
       "imageUrl": [
         "https://i.pinimg.com/564x/2e/b3/48/2eb3481dbc40922f3d1f1e1d50551542.jpg",
         "https://i.pinimg.com/564x/1c/14/6a/1c146a05f9e02739956db4ce42e22c8f.jpg"
@@ -225,16 +1299,61 @@
       "type": "Спортивные",
       "color": "Белый",
       "glass": "Сапфировое",
-      "mechanism": "Кварцевый",
+      "mechanism": "Кварцевые",
       "body": "Сталь",
       "watchband": "Кожа",
       "waterResist": "200",
       "functions": ["Дата", "Хронограф"],
       "year": 2021,
-      "price": 1088,
+      "price": "$6678.22",
       "avalible": true,
-      "warranty": "2",
-      "description": "Качество исполнения и эмоции - это те 2 вещи, которыми часовая марка Claude Bernard хочет поделиться со своими клиентами по всему миру. Бренд воплощает в себе все лучшие традиции швейцарского часового искусства: точность, качество, надежность, технические характеристики, современные материалы. Мастера создают каждую модель Claude Bernard изысканной, эстетичной и соответствующей высочайшим стандартам качества!"
+      "warranty": "2"
+    },
+    {
+      "id": 111,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/c9/b9/4d/c9b94d890b06fcf0b6382e8eed6261dd.jpg",
+        "https://i.pinimg.com/564x/ae/c5/4f/aec54fa333a46c2c32ed602385117edf.jpg"
+      ],
+      "brand": "Tag Heuer",
+      "model": "Carrera Calibre 16 Day Date",
+      "title": "Швейцарские мужские механические часы Tag Heuer",
+      "gender": "Мужские",
+      "type": "Спортивные",
+      "color": "Черный",
+      "glass": "Сапфировое",
+      "mechanism": "Механические",
+      "body": "Титан",
+      "watchband": "Кожа",
+      "waterResist": "100",
+      "functions": ["Дата", "День недели"],
+      "year": 2007,
+      "price": "$22243.41",
+      "avalible": true,
+      "warranty": "2"
+    },
+    {
+      "id": 112,
+      "imageUrl": [
+        "https://i.pinimg.com/564x/03/dd/31/03dd318221eb55cd8fc0ac314c2bf540.jpg",
+        "https://i.pinimg.com/564x/8a/08/0d/8a080dbcc767f77f02b803f2885f1e38.jpg"
+      ],
+      "brand": "Tissot",
+      "model": "Gentleman Titanium",
+      "title": "Швейцарские мужские кварцевые часы Tissot на титановом браслете",
+      "gender": "Мужские",
+      "type": "Спортивные",
+      "color": "Синий",
+      "glass": "Сапфировое",
+      "mechanism": "Кварцевые",
+      "body": "Титан",
+      "watchband": "Титан",
+      "waterResist": "100",
+      "functions": ["Дата"],
+      "year": 2017,
+      "price": "$17468.05",
+      "avalible": false,
+      "warranty": "2"
     }
   ]
 }
