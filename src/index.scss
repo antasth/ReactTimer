@@ -39,6 +39,10 @@ a {
 
 .ant-space-compact {
   width: 110px;
+  .ant-btn {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--background-main);
+  }
 }
 .ant-space:hover {
   color: var(--dark);
@@ -70,6 +74,7 @@ a {
   --link: #00b1eb;
   --background-light: #e9f4fb;
   --background-main: #eff8fd;
+  --background-dark: #494368;
   --dark: #2b303a;
   --gradient: linear-gradient(
     -60deg,

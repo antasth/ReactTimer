@@ -1,5 +1,6 @@
 import { Dropdown, message } from 'antd'
 import { filters } from '../../../config';
+import styles from './FilterDropDown.module.scss';
 
 const FilterDropDown = () => {
 
@@ -24,6 +25,7 @@ const FilterDropDown = () => {
       menu={menuProps}
       onClick={handleButtonClick}
       placement={'bottomRight'}
+      className={styles.dropdown}
     >
       Фильтры
     </Dropdown.Button>

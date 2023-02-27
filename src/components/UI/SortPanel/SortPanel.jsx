@@ -12,7 +12,9 @@ const SortPanel = () => {
       <div className={styles.filters}>
         <SimpleFilters />
       </div>
-      <SortProducts />
+      <div className={styles.sort_products}>
+        <SortProducts />
+      </div>
     </div>
   )
 }

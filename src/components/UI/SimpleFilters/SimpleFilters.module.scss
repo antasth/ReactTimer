@@ -1,11 +1,13 @@
 .simple_filters {
   .filters_list {
-    width: 55%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     list-style: none;
 
     .filter {
+      padding: 5px 0;
       margin-right: 10px;
     }
   }
