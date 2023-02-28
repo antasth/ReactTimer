@@ -6,9 +6,6 @@ import styles from './SimpleFilters.module.scss'
 const SimpleFilters = () => {
   const [activeIndex, setIsActiveIndex] = useState(0)
 
-  const onClickFilter = (index) => {
-    setIsActiveIndex(index)
-  }
   return (
     <div className={styles.simple_filters}>
       <ul className={styles.filters_list}>
@@ -16,7 +13,7 @@ const SimpleFilters = () => {
           <li key={filter} className={styles.filter}>
             <FilterButton
               key={filter}
-              onClick={() => onClickFilter(index)}
+              onClick={() => setIsActiveIndex(index)}
               className={
                 activeIndex === index ? 'button_active' : 'button_default'
               }
@@ -31,3 +28,4 @@ const SimpleFilters = () => {
 }
 
 export { SimpleFilters }
+

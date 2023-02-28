@@ -1,17 +1,34 @@
-import data from '../../data/db.json'
+import { useEffect, useState } from 'react'
 import { ProductCard } from '../ProductCard/ProductCard'
 import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  console.log(data.watches)
+  const [watches, setWatches] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch(
+          'https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch'
+        )
+        const json = await res.json()
+        console.log(json)
+        setWatches(json)
+      } catch (error) {
+        console.log('error', error)
+      }
+    }
+    fetchData()
+  }, [])
+
   return (
     <div>
       <div className={styles.products}>
         <ul className={styles.grid}>
-          {data.watches.map((item) => (
-            <li key={item.id} className={styles.item}>
-              <ProductCard {...item} />
+          {watches.map((watch) => (
+            <li key={watch.id} className={styles.item}>
+              <ProductCard {...watch} />
             </li>
           ))}
         </ul>
