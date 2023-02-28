@@ -36,7 +36,7 @@ const Products = () => {
                 </li>
               ))}
         </ul>
-        <Pagination />
+        <Pagination count={watches.length} />
       </div>
     </div>
   )
