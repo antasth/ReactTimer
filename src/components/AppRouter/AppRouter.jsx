@@ -9,11 +9,10 @@ const AppRouter = () => {
         <Routes>
           {publicRoutes.map((route) => (
             <Route
-              id={route.id}
+              key={route.id}
               element={route.component}
               path={route.path}
               exact={route.exact}
-              
             />
           ))}
         </Routes>

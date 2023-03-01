@@ -1,6 +1,6 @@
-import { Cart } from '../pages/Cart'
-import { Main } from '../pages/Main'
-import { NotFound } from '../pages/NotFound'
+import { Cart } from '../pages/Cart/Cart'
+import { Main } from '../pages/Main/Main'
+import { NotFound } from '../pages/NotFound/NotFound'
 
 export const publicRoutes = [
   { id: 1, path: '/', component: <Main />, exact: true },

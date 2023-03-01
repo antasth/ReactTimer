@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { ProductCard } from '../ProductCard'
-import { Skeleton } from '../ProductCard/skeleton'
+import { Skeleton } from '../ProductCard/Skeleton'
 import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
