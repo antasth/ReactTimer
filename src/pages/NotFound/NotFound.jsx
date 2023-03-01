@@ -1,3 +1,5 @@
+import { Button } from 'antd'
+import { Link } from 'react-router-dom'
 import styles from './NotFound.module.scss'
 
 const NotFound = () => {
@@ -12,12 +14,15 @@ const NotFound = () => {
           ></img>
           <span>4</span>
         </div>
-        <h1>Страница не найдена!</h1>
+        <h1 className={styles.title}>Страница не найдена!</h1>
         <p>К сожалению, запрашиваемой страницы не существует.</p>
         <p>
-          Вы можете воспользоваться формой поиска по каталогу, а также отправить
-          сообщение в нашу техническую службу.
+          Вы можете воспользоваться формой поиска по каталогу, или перейти в
+          каталог товаров
         </p>
+        <Link to="/">
+          <Button className={styles.button}>Перейти в каталог</Button>
+        </Link>
       </div>
     </div>
   )

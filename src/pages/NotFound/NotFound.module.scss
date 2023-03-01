@@ -26,7 +26,12 @@
         }
       }
     }
-
+    .title {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .button {
+      margin-top: 20px;
+    }
     img {
       width: 200px;
       @media (max-width: 575.98px) {
