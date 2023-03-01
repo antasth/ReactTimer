@@ -1,13 +1,22 @@
-import { Products } from '../Products/Products'
-import { SortPanel } from '../UI/SortPanel/SortPanel'
+import { Route, Routes } from 'react-router-dom'
+import { publicRoutes } from '../../routes/routes'
 import styles from './AppRouter.module.scss'
 
 const AppRouter = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
-        <SortPanel />
-        <Products />
+        <Routes>
+          {publicRoutes.map((route) => (
+            <Route
+              id={route.id}
+              element={route.component}
+              path={route.path}
+              exact={route.exact}
+              
+            />
+          ))}
+        </Routes>
       </div>
     </div>
   )

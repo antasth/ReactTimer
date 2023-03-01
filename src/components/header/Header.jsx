@@ -1,4 +1,5 @@
 import { HiOutlineSearch, HiOutlineShoppingBag } from 'react-icons/hi'
+import { Link } from 'react-router-dom'
 import { Logo } from '../UI/Logo/Logo'
 import styles from './Header.module.scss'
 
@@ -6,9 +7,11 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header_content}>
-        <div className={styles.logo}>
-          <Logo />
-        </div>
+        <Link to="/">
+          <div className={styles.logo}>
+            <Logo />
+          </div>
+        </Link>
         <div className={styles.navbar}>
           <ul>
             <li>Наручные часы</li>
