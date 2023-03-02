@@ -1,5 +1,6 @@
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import { VscTrash } from 'react-icons/vsc'
+import { Link } from 'react-router-dom'
 
 import styles from './Cart.module.scss'
 const Cart = () => {
@@ -123,7 +124,17 @@ const Cart = () => {
             </div>
           </li>
         </ul>
-        <div className={styles.total}>Итого: 12345 p</div>
+        <div className={styles.total}>
+          <span>Итого:</span>
+          <span>1 товар</span>
+          <span>12345 p</span>
+        </div>
+        <div className={styles.order}>
+          <Link to="/">
+            <button className={styles.button_catalog}>На главную</button>
+          </Link>
+          <button className={styles.button_catalog}>Оформить заказ</button>
+        </div>
       </div>
     </div>
   )
