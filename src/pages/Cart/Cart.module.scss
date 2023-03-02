@@ -1,0 +1,100 @@
+.cart {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: var(--white);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+  .title {
+    align-self: start;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  .cart_content {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    .items_list {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 20px;
+      list-style: none;
+
+      .list_item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(186, 186, 186);
+
+        .description {
+          flex-grow: 1;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .description_top,
+          .description_bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 10px;
+          }
+
+          .description_top_left {
+            font-family: 'Gruppo', cursive;
+
+            .brand {
+              font-size: 24px;
+              font-weight: bold;
+            }
+            .model {
+              font-size: 20px;
+            }
+          }
+          .description_top_right {
+            .price {
+              font-size: 32px;
+            }
+          }
+          .description_bottom{
+            font-size: 22px;
+            .description_bottom_left {
+              .counter {
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+              }
+            }
+            .description_bottom_right {
+             
+            }
+          }   
+        }
+      }
+      img {
+        width: 100px;
+        margin-right: 15px;
+      }
+    }
+
+    .total {
+      align-self: end;
+      padding-top: 15px;
+    }
+  }
+}

@@ -28,7 +28,9 @@ const Header = () => {
               <HiOutlineSearch id="icon" />
             </li>
             <li>
-              <HiOutlineShoppingBag id="icon" />
+              <Link to="/cart">
+                <HiOutlineShoppingBag id="icon" />
+              </Link>
             </li>
           </ul>
         </div>
