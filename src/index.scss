@@ -62,6 +62,7 @@ a {
   &:hover {
     color: var(--link);
     transition: var(--transition);
+    cursor: pointer;
   }
 }
 

@@ -37,7 +37,6 @@
       .list_item {
         display: flex;
         align-items: center;
-        padding-bottom: 10px;
         border-bottom: 1px solid rgb(186, 186, 186);
 
         .description {
@@ -52,49 +51,86 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 20px 10px;
+            padding: 15px 10px;
           }
 
-          .description_top_left {
-            font-family: 'Gruppo', cursive;
-
-            .brand {
-              font-size: 24px;
-              font-weight: bold;
+          .description_top {
+            @media (max-width: 500px) {
+              display: flex;
+              flex-direction: column;
+              .price {
+                margin-top: 10px;
+              }
             }
-            .model {
-              font-size: 20px;
+            .description_top_left {
+              font-family: 'Gruppo', cursive;
+              .brand {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 5px;
+              }
+              .model {
+                font-size: 20px;
+              }
+            }
+            .description_top_right {
+              .price {
+                font-size: 32px;
+                @media (max-width: 500px) {
+                  font-size: 20px;
+                }
+              }
             }
           }
-          .description_top_right {
-            .price {
-              font-size: 32px;
-            }
-          }
-          .description_bottom{
+          .description_bottom {
             font-size: 22px;
+
             .description_bottom_left {
-              .counter {
+              .count {
                 font-size: 20px;
                 display: flex;
                 align-items: center;
+
+                @media (max-width: 500px) {
+                  .count_text {
+                    display: none;
+                  }
+                }
+
+                .counter {
+                  display: flex;
+                  justify-content: space-between;
+                  border: 1px solid rgb(189, 188, 188);
+                  border-radius: 3px;
+                  padding: 5px 10px;
+                  margin: 0 15px;
+                  width: 80px;
+                  @media (max-width: 500px) {
+                    margin: 0;
+                  }
+                }
               }
             }
             .description_bottom_right {
-             
+              opacity: 0.5;
+              margin-left: 10px;
             }
-          }   
+          }
         }
       }
       img {
         width: 100px;
         margin-right: 15px;
+        @media (max-width: 500px) {
+          margin-right: 0;
+        }
       }
     }
 
     .total {
       align-self: end;
       padding-top: 15px;
+      font-size: 22px;
     }
   }
 }

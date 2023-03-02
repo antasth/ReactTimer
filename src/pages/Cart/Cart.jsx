@@ -1,4 +1,4 @@
-import { AiOutlineMinusSquare, AiOutlinePlusSquare } from 'react-icons/ai'
+import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import { VscTrash } from 'react-icons/vsc'
 
 import styles from './Cart.module.scss'
@@ -25,12 +25,20 @@ const Cart = () => {
               </div>
               <div className={styles.description_bottom}>
                 <div className={styles.description_bottom_left}>
-                  <div className={styles.counter}>
-                    Количество <AiOutlineMinusSquare /> <span> 1 </span>
-                    <AiOutlinePlusSquare />
+                  <div className={styles.count}>
+                    <span className={styles.count_text}>Количество </span>{' '}
+                    <div className={styles.counter}>
+                      <div id="icon">
+                        <AiOutlineMinus />
+                      </div>
+                      <span> 1 </span>
+                      <div id="icon">
+                        <AiOutlinePlus />
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className={styles.description_bottom_right} id='icon'>
+                <div className={styles.description_bottom_right} id="icon">
                   <VscTrash />
                 </div>
               </div>
@@ -53,9 +61,22 @@ const Cart = () => {
               </div>
               <div className={styles.description_bottom}>
                 <div className={styles.description_bottom_left}>
-                  <div className={styles.counter}>Количество - 1 +</div>
+                  <div className={styles.count}>
+                    <span className={styles.count_text}>Количество </span>{' '}
+                    <div className={styles.counter}>
+                      <div id="icon">
+                        <AiOutlineMinus />
+                      </div>
+                      <span> 1 </span>
+                      <div id="icon">
+                        <AiOutlinePlus />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className={styles.description_bottom_right}>Удалить</div>
+                <div className={styles.description_bottom_right} id="icon">
+                  <VscTrash />
+                </div>
               </div>
             </div>
           </li>
@@ -76,12 +97,26 @@ const Cart = () => {
               </div>
               <div className={styles.description_bottom}>
                 <div className={styles.description_bottom_left}>
-                  <div className={styles.counter}>Количество 1 +</div>
+                  <div className={styles.count}>
+                    <span className={styles.count_text}>Количество </span>{' '}
+                    <div className={styles.counter}>
+                      <div id="icon">
+                        <AiOutlineMinus />
+                      </div>
+                      <span> 1 </span>
+                      <div id="icon">
+                        <AiOutlinePlus />
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className={styles.description_bottom_right}>Удалить</div>
+                <div className={styles.description_bottom_right} id="icon">
+                  <VscTrash />
+                </div>
               </div>
             </div>
           </li>
+        
         </ul>
         <div className={styles.total}>Итого: 12345 p</div>
       </div>
