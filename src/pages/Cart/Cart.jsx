@@ -7,6 +7,12 @@ const Cart = () => {
     <div className={styles.cart}>
       <h1 className={styles.title}>Корзина</h1>
       <div className={styles.cart_content}>
+        <div className={styles.cart_clear}>
+          <div className={styles.icon}>
+            <VscTrash />
+          </div>
+          <h3>Очистить корзину</h3>
+        </div>
         <ul className={styles.items_list}>
           <li className={styles.list_item}>
             <img
@@ -116,7 +122,6 @@ const Cart = () => {
               </div>
             </div>
           </li>
-        
         </ul>
         <div className={styles.total}>Итого: 12345 p</div>
       </div>

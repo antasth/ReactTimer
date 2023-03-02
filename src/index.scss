@@ -59,6 +59,8 @@ a {
   height: 1.5rem;
   width: 1.5rem;
   color: var(--dark);
+  display: flex;
+  align-items: center;
   &:hover {
     color: var(--link);
     transition: var(--transition);
