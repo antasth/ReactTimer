@@ -6,7 +6,11 @@ const CartContextProvider = (props) => {
   const [cartItems, setCartItems] = useState([])
 
   const onAddToCart = (item) => {
-    setCartItems((prev) => [...prev, item])
+    !checkItemInCart(item) && setCartItems((prev) => [...prev, item])
+  }
+
+  const checkItemInCart = (watch) => {
+    return !!cartItems.find((item) => item.id === watch.id)
   }
 
   const value = {

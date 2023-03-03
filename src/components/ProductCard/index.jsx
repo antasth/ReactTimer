@@ -1,7 +1,14 @@
 import { Button } from 'antd'
 import styles from './ProductCard.module.scss'
 
-const ProductCard = ({ brand, model, imageUrl, price, avalible }) => {
+const ProductCard = ({
+  brand,
+  model,
+  imageUrl,
+  price,
+  avalible,
+  onAddToCart,
+}) => {
   return (
     <div className={styles.product_card}>
       <div className={styles.image}>
@@ -23,7 +30,11 @@ const ProductCard = ({ brand, model, imageUrl, price, avalible }) => {
             {avalible ? 'В наличии' : 'Нет в наличии'}
           </div>
           <div className={styles.button}>
-            <Button type="default" className={styles.buy_button}>
+            <Button
+              type="default"
+              className={styles.buy_button}
+              onClick={onAddToCart}
+            >
               {avalible ? 'Купить' : 'Заказать'}
             </Button>
           </div>
@@ -34,4 +45,3 @@ const ProductCard = ({ brand, model, imageUrl, price, avalible }) => {
 }
 
 export { ProductCard }
-
