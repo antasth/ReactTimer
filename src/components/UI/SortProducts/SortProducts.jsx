@@ -1,11 +1,15 @@
 import { Select } from 'antd'
+import { useContext } from 'react'
+import { SortContext } from '../../../context/SortContext'
 import styles from './SortProducts.module.scss'
 
-// const handleChange = (value) => {
-//   console.log(`selected ${value}`);
-// };
-
 const SortProducts = () => {
+  const sort = useContext(SortContext)
+
+  const handleChange = (value) => {
+    sort.setSortParam(value)
+  }
+
   return (
     <div className={styles.sort}>
       <span className={styles.title}>Сортировка:</span>
@@ -13,7 +17,7 @@ const SortProducts = () => {
         defaultValue="default"
         dropdownMatchSelectWidth={false}
         bordered={false}
-        // onChange={handleChange}
+        onChange={handleChange}
         options={[
           {
             value: 'default',
