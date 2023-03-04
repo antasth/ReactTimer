@@ -9,6 +9,13 @@ const CartContextProvider = (props) => {
     !checkItemInCart(item) && setCartItems((prev) => [...prev, item])
   }
 
+  const onDelFromCart = (id) => {
+    setCartItems(cartItems.filter((item) => item.id !== id))
+  }
+
+  const clearCart = () => {
+    setCartItems([])
+  }
   const checkItemInCart = (watch) => {
     return !!cartItems.find((item) => item.id === watch.id)
   }
@@ -16,6 +23,8 @@ const CartContextProvider = (props) => {
   const value = {
     cartItems: cartItems,
     onAddToCart: onAddToCart,
+    onDelFromCart: onDelFromCart,
+    clearCart: clearCart,
   }
   return (
     <CartContext.Provider value={value}>{props.children}</CartContext.Provider>

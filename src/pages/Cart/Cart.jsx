@@ -7,20 +7,22 @@ import styles from './Cart.module.scss'
 
 const Cart = () => {
   const cart = useContext(CartContext)
-  
+
   return (
     <div className={styles.cart}>
       <h1 className={styles.title}>Корзина</h1>
       <div className={styles.cart_content}>
         <div className={styles.cart_clear}>
-          <div className={styles.icon}>
-            <VscTrash />
+          <div className={styles.clear_button} onClick={cart.clearCart}>
+            <div className={styles.icon}>
+              <VscTrash />
+            </div>
+            <h3>Очистить корзину</h3>
           </div>
-          <h3>Очистить корзину</h3>
         </div>
         <ul className={styles.items_list}>
           {cart.cartItems.map((item) => (
-            <li className={styles.list_item}>
+            <li className={styles.list_item} key={item.id}>
               <img src={item.imageUrl[0]} alt="cart_img" />
               <div className={styles.description}>
                 <div className={styles.description_top}>
@@ -46,7 +48,11 @@ const Cart = () => {
                       </div>
                     </div>
                   </div>
-                  <div className={styles.description_bottom_right} id="icon">
+                  <div
+                    className={styles.description_bottom_right}
+                    id="icon"
+                    onClick={() => cart.onDelFromCart(item.id)}
+                  >
                     <VscTrash />
                   </div>
                 </div>
