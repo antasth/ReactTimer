@@ -7,7 +7,10 @@ const SortProducts = () => {
   const sort = useContext(SortContext)
 
   const handleChange = (value) => {
-    sort.setSortParam(value)
+    sort.setSortParams({
+      value: value.split('_')[0],
+      option: value.split('_')[1],
+    })
   }
 
   return (
@@ -24,15 +27,19 @@ const SortProducts = () => {
             label: 'По умолчанию',
           },
           {
-            value: 'popularity',
+            value: 'rating',
             label: 'По популярности',
           },
           {
-            value: 'price',
-            label: 'По цене',
+            value: 'price_low',
+            label: 'По цене ↑',
           },
           {
-            value: 'name',
+            value: 'price_high',
+            label: 'По цене ↓',
+          },
+          {
+            value: 'brand_low',
             label: 'По названию',
           },
         ]}
