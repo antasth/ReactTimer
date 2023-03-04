@@ -1,6 +1,7 @@
-import { HiOutlineSearch, HiOutlineShoppingBag } from 'react-icons/hi'
+import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 import { Logo } from '../UI/Logo/Logo'
+import { Search } from '../UI/Search/Search'
 import styles from './Header.module.scss'
 
 const Header = () => {
@@ -25,11 +26,11 @@ const Header = () => {
         <div className={styles.buttons}>
           <ul>
             <li>
-              <HiOutlineSearch id="icon" />
+              <Search />
             </li>
             <li>
               <Link to="/cart">
-                <HiOutlineShoppingBag id="icon" />
+                <HiOutlineShoppingBag className={styles.carticon} />
               </Link>
             </li>
           </ul>
