@@ -32,6 +32,15 @@
     flex-direction: column;
     margin-bottom: 25px;
 
+    .empty_cart {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .empty_watch {
+      width: 250px;
+    }
+
     .cart_clear {
       display: flex;
       justify-content: end;
