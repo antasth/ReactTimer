@@ -18,9 +18,9 @@ const Search = () => {
         <input
           type="text"
           className={styles.input_search}
-          value={sort.filter}
+          value={sort.search}
           placeholder="Поиск по каталогу..."
-          onChange={(e) => sort.setFilterParams(e.target.value)}
+          onChange={(e) => sort.setSearchParams(e.target.value)}
         />
       </form>
     </div>

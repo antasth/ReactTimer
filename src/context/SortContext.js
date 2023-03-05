@@ -5,6 +5,7 @@ const SortContext = createContext()
 const SortContextProvider = (props) => {
   const [sort, setSort] = useState({})
   const [filter, setFilter] = useState('')
+  const [search, setSearch] = useState('')
 
   const setSortParams = (param) => {
     setSort(param)
@@ -12,12 +13,17 @@ const SortContextProvider = (props) => {
   const setFilterParams = (param) => {
     setFilter(param)
   }
+  const setSearchParams = (param) => {
+    setSearch(param)
+  }
 
   const value = {
-    sort:sort,
-    filter:filter,
+    sort: sort,
+    filter: filter,
+    search: search,
     setSortParams: setSortParams,
     setFilterParams: setFilterParams,
+    setSearchParams: setSearchParams,
   }
   return (
     <SortContext.Provider value={value}>{props.children}</SortContext.Provider>

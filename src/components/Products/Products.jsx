@@ -14,12 +14,17 @@ const Products = () => {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
+    const filter = sort.filter ? `&filter=${sort.filter}` : ''
+    const sortBy = sort.sort.value ? `&sortBy=${sort.sort.value}` : ''
+    const search = sort.search ? `&search=${sort.search}` : ''
+    const order = sort.sort.value
+      ? sort.sort.option === 'low'
+        ? `&order=asc`
+        : `&order=desc`
+      : ''
+
     const url = new URL(
-      `https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch?search=${
-        sort.filter
-      }&sortBy=${sort.sort.value}&order=${
-        sort.sort.option === 'low' ? 'asc' : 'desc'
-      }`
+      `https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch?${filter}${sortBy}${search}${order}`
     )
 
     fetch(url, {
@@ -38,7 +43,7 @@ const Products = () => {
       .catch((error) => {
         // handle error
       })
-  }, [sort.filter, sort.sort])
+  }, [sort.filter, sort.sort, sort.search])
 
   useEffect(() => {
     const fetchData = async () => {
