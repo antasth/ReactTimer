@@ -1,19 +1,18 @@
-import { Dropdown, message } from 'antd'
-import { filters } from '../../../config';
-import styles from './FilterDropDown.module.scss';
+import { Dropdown } from 'antd'
+import { useContext } from 'react'
+import { filters } from '../../../config'
+import { SortContext } from '../../../context/SortContext'
+import styles from './FilterDropDown.module.scss'
 
 const FilterDropDown = () => {
+  const sort = useContext(SortContext)
 
-  const handleButtonClick = (e) => {
-    message.info('Click on left button.')
-    console.log(e.key);
-  }
   const handleMenuClick = (e) => {
-    console.log(e.key);
+    sort.setFilterParams(filters[e.key])
   }
 
   const items = filters.map((filter, index) => {
-   return {label: filter, key: index}
+    return { label: filter, key: index }
   })
 
   const menuProps = {
@@ -23,7 +22,6 @@ const FilterDropDown = () => {
   return (
     <Dropdown.Button
       menu={menuProps}
-      onClick={handleButtonClick}
       placement={'bottomRight'}
       className={styles.dropdown}
     >
