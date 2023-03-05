@@ -13,6 +13,7 @@ const Products = () => {
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
+  // fetch filter sort search
   useEffect(() => {
     const filter = sort.filter ? `&filter=${sort.filter}` : ''
     const sortBy = sort.sort.value ? `&sortBy=${sort.sort.value}` : ''
@@ -45,6 +46,7 @@ const Products = () => {
       })
   }, [sort.filter, sort.sort, sort.search])
 
+  // fetch all items on startup
   useEffect(() => {
     const fetchData = async () => {
       try {

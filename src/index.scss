@@ -32,6 +32,7 @@ code {
 a {
   text-decoration: none;
   color: var(--dark);
+  transition: var(--transition);
   &:hover {
     color: var(--link);
   }

@@ -43,6 +43,10 @@
   .icon {
     width: 20px;
     height: 20px;
+
+    &:hover {
+      color: var(--link);
+    }
   }
 }
 .btn_search:focus ~ .input_search {

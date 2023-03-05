@@ -15,12 +15,24 @@ const Header = () => {
         </Link>
         <div className={styles.navbar}>
           <ul>
-            <li>Наручные часы</li>
-            <li>Распродажа</li>
-            <li>Новости</li>
-            <li>Сервисные центры</li>
-            <li>Контакты</li>
-            <li>Доставка</li>
+            <li>
+              <a href="#">Наручные часы</a>{' '}
+            </li>
+            <li>
+              <a href="#">Распродажа</a>{' '}
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Сервисные центры</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
           </ul>
         </div>
         <div className={styles.buttons}>
