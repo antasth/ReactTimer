@@ -27,7 +27,7 @@ const ProductCard = ({
             От {Math.round(price / 18)} $./мес.
           </div>
           <div className={styles.stock}>
-            {avalible ? 'В наличии' : 'Нет в наличии'}
+            {avalible}
           </div>
           <div className={styles.button}>
             <Button
@@ -35,7 +35,7 @@ const ProductCard = ({
               className={styles.buy_button}
               onClick={onAddToCart}
             >
-              {avalible ? 'Купить' : 'Заказать'}
+              {avalible === 'В наличии' ? 'Купить' : 'Заказать'}
             </Button>
           </div>
         </div>
