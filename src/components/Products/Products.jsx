@@ -12,7 +12,14 @@ const Products = () => {
 
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
+  const [itemsOnPage, setItemsOnPage] = useState(12)
+  const [page, setPage] = useState(1)
 
+
+  const getPageParams =(current, pageSize)=> {
+    setItemsOnPage(pageSize)
+    setPage(current)
+  }
   // fetch filter sort search
   useEffect(() => {
     const filter = sort.filter ? `&filter=${sort.filter}` : ''
@@ -63,22 +70,18 @@ const Products = () => {
     fetchData()
   }, [])
 
+  const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)
+  const items = watches.slice(page * itemsOnPage - itemsOnPage, page * itemsOnPage).map((watch) => (
+    <li key={watch.id} className={styles.item}>
+      <ProductCard {...watch} onAddToCart={() => cart.onAddToCart(watch)} />
+    </li>
+  ))
+
   return (
     <div>
       <div className={styles.products}>
-        <ul className={styles.grid}>
-          {isLoading
-            ? [...new Array(8)].map((_, index) => <Skeleton key={index} />)
-            : watches.map((watch) => (
-                <li key={watch.id} className={styles.item}>
-                  <ProductCard
-                    {...watch}
-                    onAddToCart={() => cart.onAddToCart(watch)}
-                  />
-                </li>
-              ))}
-        </ul>
-        <Pagination count={watches.length} />
+        <ul className={styles.grid}>{isLoading ? skeleton : items}</ul>
+        <Pagination count={watches.length} getPageParams={getPageParams}/>
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ import { FilterButton } from '../FilterButton/FilterButton'
 import styles from './SimpleFilters.module.scss'
 
 const SimpleFilters = () => {
-  const [activeIndex, setIsActiveIndex] = useState(0)
+  const [activeIndex, setIsActiveIndex] = useState(null)
   const sort = useContext(SortContext)
 
   return (
