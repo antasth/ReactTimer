@@ -69,9 +69,10 @@ const Products = () => {
     fetchData()
   }, [])
 
+  // onChange filter or search set current page to 1
   useEffect(() => {
     setCurrentPage(1)
-  }, [sort.filter])
+  }, [sort.filter, sort.search])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)
   const items = watches

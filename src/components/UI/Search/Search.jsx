@@ -28,3 +28,4 @@ const Search = () => {
 }
 
 export { Search }
+
