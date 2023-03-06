@@ -7,8 +7,8 @@ import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  const cart = useContext(CartContext)
-  const sort = useContext(SortContext)
+  const { onAddToCart } = useContext(CartContext)
+  const { filter, sort, search } = useContext(SortContext)
 
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -21,17 +21,17 @@ const Products = () => {
   }
   // fetch filter sort search
   useEffect(() => {
-    const filter = sort.filter ? `&filter=${sort.filter}` : ''
-    const sortBy = sort.sort.value ? `&sortBy=${sort.sort.value}` : ''
-    const search = sort.search ? `&search=${sort.search}` : ''
-    const order = sort.sort.value
-      ? sort.sort.option === 'low'
+    const filterBy = filter ? `&filter=${filter}` : ''
+    const sortBy = sort.value ? `&sortBy=${sort.value}` : ''
+    const searchBy = search ? `&search=${search}` : ''
+    const order = sort.value
+      ? sort.option === 'low'
         ? `&order=asc`
         : `&order=desc`
       : ''
 
     const url = new URL(
-      `https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch?${filter}${sortBy}${search}${order}`
+      `https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch?${filterBy}${sortBy}${searchBy}${order}`
     )
 
     fetch(url, {
@@ -50,7 +50,7 @@ const Products = () => {
       .catch((error) => {
         // handle error
       })
-  }, [sort.filter, sort.sort, sort.search])
+  }, [filter, sort, search])
 
   // fetch all items on startup
   useEffect(() => {
@@ -72,14 +72,14 @@ const Products = () => {
   // onChange filter or search set current page to 1
   useEffect(() => {
     setCurrentPage(1)
-  }, [sort.filter, sort.search])
+  }, [filter, search])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)
   const items = watches
     .slice(currentPage * itemsOnPage - itemsOnPage, currentPage * itemsOnPage)
     .map((watch) => (
       <li key={watch.id} className={styles.item}>
-        <ProductCard {...watch} onAddToCart={() => cart.onAddToCart(watch)} />
+        <ProductCard {...watch} onAddToCart={() => onAddToCart(watch)} />
       </li>
     ))
 
@@ -87,7 +87,11 @@ const Products = () => {
     <div>
       <div className={styles.products}>
         <ul className={styles.grid}>{isLoading ? skeleton : items}</ul>
-        <Pagination count={watches.length} getPageParams={getPageParams} currentPage={currentPage}/>
+        <Pagination
+          count={watches.length}
+          getPageParams={getPageParams}
+          currentPage={currentPage}
+        />
       </div>
     </div>
   )

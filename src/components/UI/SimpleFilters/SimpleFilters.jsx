@@ -6,7 +6,7 @@ import styles from './SimpleFilters.module.scss'
 
 const SimpleFilters = () => {
   const [activeIndex, setIsActiveIndex] = useState(null)
-  const sort = useContext(SortContext)
+  const {setFilterParams} = useContext(SortContext)
 
   return (
     <div className={styles.simple_filters}>
@@ -17,7 +17,7 @@ const SimpleFilters = () => {
               key={filter}
               onClick={() => {
                 setIsActiveIndex(index)
-                sort.setFilterParams(filters[index])
+                setFilterParams(filters[index])
               }}
               className={
                 activeIndex === index ? 'button_active' : 'button_default'

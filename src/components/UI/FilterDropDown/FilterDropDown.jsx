@@ -5,10 +5,10 @@ import { SortContext } from '../../../context/SortContext'
 import styles from './FilterDropDown.module.scss'
 
 const FilterDropDown = () => {
-  const sort = useContext(SortContext)
+  const {setFilterParams} = useContext(SortContext)
 
   const handleMenuClick = (e) => {
-    sort.setFilterParams(filters[e.key])
+    setFilterParams(filters[e.key])
   }
 
   const items = filters.map((filter, index) => {

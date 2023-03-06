@@ -4,7 +4,7 @@ import { SortContext } from '../../../context/SortContext'
 import styles from './Search.module.scss'
 
 const Search = () => {
-  const sort = useContext(SortContext)
+  const {search, setSearchParams} = useContext(SortContext)
 
   return (
     <div className={styles.search_box}>
@@ -18,9 +18,9 @@ const Search = () => {
         <input
           type="text"
           className={styles.input_search}
-          value={sort.search}
+          value={search}
           placeholder="Поиск по каталогу..."
-          onChange={(e) => sort.setSearchParams(e.target.value)}
+          onChange={(e) => setSearchParams(e.target.value)}
         />
       </form>
     </div>

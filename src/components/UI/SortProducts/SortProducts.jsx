@@ -4,10 +4,10 @@ import { SortContext } from '../../../context/SortContext'
 import styles from './SortProducts.module.scss'
 
 const SortProducts = () => {
-  const sort = useContext(SortContext)
+  const {setSortParams} = useContext(SortContext)
 
   const handleChange = (value) => {
-    sort.setSortParams({
+    setSortParams({
       value: value.split('_')[0],
       option: value.split('_')[1],
     })

@@ -6,15 +6,15 @@ import { CartContext } from '../../context/CartContext'
 import styles from './Cart.module.scss'
 
 const Cart = () => {
-  const cart = useContext(CartContext)
+  const {cartItems, clearCart, onDelFromCart} = useContext(CartContext)
 
   return (
     <div className={styles.cart}>
       <h1 className={styles.title}>Корзина</h1>
       <div className={styles.cart_content}>
         <div className={styles.cart_clear}>
-          {cart.cartItems.length > 0 && (
-            <div className={styles.clear_button} onClick={cart.clearCart}>
+          {cartItems.length > 0 && (
+            <div className={styles.clear_button} onClick={clearCart}>
               <div className={styles.icon}>
                 <VscTrash />
               </div>
@@ -22,7 +22,7 @@ const Cart = () => {
             </div>
           )}
         </div>
-        {!cart.cartItems.length && (
+        {!cartItems.length && (
           <div className={styles.empty_cart}>
             <img
               className={styles.empty_watch}
@@ -38,10 +38,10 @@ const Cart = () => {
             </div>
           </div>
         )}
-        {cart.cartItems.length > 0 && (
+        {cartItems.length > 0 && (
           <>
             <ul className={styles.items_list}>
-              {cart.cartItems.map((item) => (
+              {cartItems.map((item) => (
                 <li className={styles.list_item} key={item.id}>
                   <img src={item.imageUrl[0]} alt="cart_img" />
                   <div className={styles.description}>
@@ -71,7 +71,7 @@ const Cart = () => {
                       <div
                         className={styles.description_bottom_right}
                         id="icon"
-                        onClick={() => cart.onDelFromCart(item.id)}
+                        onClick={() => onDelFromCart(item.id)}
                       >
                         <VscTrash />
                       </div>
