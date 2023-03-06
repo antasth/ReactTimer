@@ -1,7 +1,7 @@
 import { Pagination as Pag } from 'antd'
 import styles from './Pagination.module.scss'
 
-const Pagination = ({ count, getPageParams }) => {
+const Pagination = ({ count, getPageParams, currentPage }) => {
   const onChange = (current, pageSize) => {
     getPageParams(current, pageSize)
   }
@@ -11,6 +11,7 @@ const Pagination = ({ count, getPageParams }) => {
       <Pag
         className={styles.pag_default}
         defaultCurrent={1}
+        current={currentPage}
         total={count}
         onChange={onChange}
         pageSizeOptions={[12, 24, 36]}
