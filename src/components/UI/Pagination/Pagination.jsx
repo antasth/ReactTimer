@@ -20,7 +20,10 @@ const Pagination = ({ count, getPageParams, currentPage }) => {
       <Pag
         simple
         defaultCurrent={1}
+        current={currentPage}
         total={count}
+        onChange={onChange}
+        defaultPageSize={12}
         className={styles.pag_simple}
       />
     </div>
