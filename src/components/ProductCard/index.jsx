@@ -1,4 +1,5 @@
 import { Button } from 'antd'
+import { slicePrice } from '../../utils/pageFunctions'
 import styles from './ProductCard.module.scss'
 
 const ProductCard = ({
@@ -22,13 +23,11 @@ const ProductCard = ({
         </div>
 
         <div className={styles.info}>
-          <div className={styles.price}>{price} $.</div>
+          <div className={styles.price}>{slicePrice(price)} $.</div>
           <div className={styles.credit}>
             От {Math.round(price / 18)} $./мес.
           </div>
-          <div className={styles.stock}>
-            {avalible}
-          </div>
+          <div className={styles.stock}>{avalible}</div>
           <div className={styles.button}>
             <Button
               type="default"

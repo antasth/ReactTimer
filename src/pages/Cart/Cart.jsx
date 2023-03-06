@@ -3,6 +3,7 @@ import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import { VscTrash } from 'react-icons/vsc'
 import { Link } from 'react-router-dom'
 import { CartContext } from '../../context/CartContext'
+import { slicePrice } from '../../utils/pageFunctions'
 import styles from './Cart.module.scss'
 
 const Cart = () => {
@@ -51,7 +52,7 @@ const Cart = () => {
                         <div className={styles.model}>{item.model}</div>
                       </div>
                       <div className={styles.description_top_right}>
-                        <div className={styles.price}>{item.price} $</div>
+                        <div className={styles.price}>{slicePrice(item.price) } $</div>
                       </div>
                     </div>
                     <div className={styles.description_bottom}>
