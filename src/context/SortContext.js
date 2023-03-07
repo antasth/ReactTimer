@@ -18,12 +18,12 @@ const SortContextProvider = (props) => {
   }
 
   const value = {
-    sort: sort,
-    filter: filter,
-    search: search,
-    setSortParams: setSortParams,
-    setFilterParams: setFilterParams,
-    setSearchParams: setSearchParams,
+    sort,
+    filter,
+    search,
+    setSortParams,
+    setFilterParams,
+    setSearchParams,
   }
   return (
     <SortContext.Provider value={value}>{props.children}</SortContext.Provider>

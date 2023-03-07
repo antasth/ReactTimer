@@ -21,10 +21,10 @@ const CartContextProvider = (props) => {
   }
 
   const value = {
-    cartItems: cartItems,
-    onAddToCart: onAddToCart,
-    onDelFromCart: onDelFromCart,
-    clearCart: clearCart,
+    cartItems,
+    onAddToCart,
+    onDelFromCart,
+    clearCart,
   }
   return (
     <CartContext.Provider value={value}>{props.children}</CartContext.Provider>
