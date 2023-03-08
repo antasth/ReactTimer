@@ -5,7 +5,7 @@ const initialState = {
   filter: '',
   sort: {
     value: 'default',
-    label: 'По умолчанию',
+    option: '',
   },
 }
 
@@ -14,15 +14,17 @@ const filterSlice = createSlice({
   initialState,
   reducers: {
     setActiveIndex(state, action) {
-      console.log(action)
       state.activeIndex = action.payload
     },
     setFilter(state, action) {
       state.filter = action.payload
     },
+    setSort(state, action) {
+      state.sort = action.payload
+    },
   },
 })
 
-export const { setActiveIndex, setFilter } = filterSlice.actions
+export const { setActiveIndex, setFilter, setSort } = filterSlice.actions
 
 export default filterSlice.reducer

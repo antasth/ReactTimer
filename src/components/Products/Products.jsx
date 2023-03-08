@@ -9,10 +9,9 @@ import styles from './Products.module.scss'
 
 const Products = () => {
   const filter = useSelector((state) => state.filterSlice.filter)
-
+  const sort = useSelector(state=> state.filterSlice.sort)
   const { onAddToCart } = useContext(CartContext)
-  const { sort, search } = useContext(SortContext)
-
+  const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [itemsOnPage, setItemsOnPage] = useState(12)

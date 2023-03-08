@@ -1,16 +1,18 @@
 import { Select } from 'antd'
-import { useContext } from 'react'
-import { SortContext } from '../../../context/SortContext'
+import { useDispatch } from 'react-redux'
+import { setSort } from '../../../redux/slices/filterSlice'
 import styles from './SortProducts.module.scss'
 
 const SortProducts = () => {
-  const {setSortParams} = useContext(SortContext)
+  const dispatch = useDispatch()
 
   const handleChange = (value) => {
-    setSortParams({
-      value: value.split('_')[0],
-      option: value.split('_')[1],
-    })
+    dispatch(
+      setSort({
+        value: value.split('_')[0],
+        option: value.split('_')[1],
+      })
+    )
   }
 
   return (
