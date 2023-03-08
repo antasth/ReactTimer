@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 import { CartContext } from '../../context/CartContext'
 import { SortContext } from '../../context/SortContext'
 import { ProductCard } from '../ProductCard'
@@ -7,8 +8,10 @@ import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
+  const filter = useSelector((state) => state.filterSlice.filter)
+
   const { onAddToCart } = useContext(CartContext)
-  const { filter, sort, search } = useContext(SortContext)
+  const { sort, search } = useContext(SortContext)
 
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
