@@ -8,8 +8,7 @@ import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  const filter = useSelector((state) => state.filterSlice.filter)
-  const sort = useSelector(state=> state.filterSlice.sort)
+  const {filter, sort} = useSelector(state => state.filterSlice)
   const { onAddToCart } = useContext(CartContext)
   const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
