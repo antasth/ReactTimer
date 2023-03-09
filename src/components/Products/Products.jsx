@@ -36,33 +36,11 @@ const Products = () => {
       `https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch?${filterBy}${sortBy}${searchBy}${order}`
     )
 
-    fetch(url, {
-      method: 'GET',
-      headers: { 'content-type': 'application/json' },
+    axios.get(url).then((res) => {
+      setWatches(res.data)
+      setIsLoading(false)
     })
-      .then((res) => {
-        if (res.ok) {
-          return res.json()
-        }
-        // handle error
-      })
-      .then((json) => {
-        setWatches(json)
-      })
-      .catch((error) => {
-        // handle error
-      })
   }, [filter, sort, search])
-
-  // fetch all items on startup
-  useEffect(() => {
-    axios
-      .get('https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch')
-      .then((res) => {
-        setWatches(res.data)
-        setIsLoading(false)
-      })
-  }, [])
 
   // onChange filter or search set current page to 1
   useEffect(() => {
