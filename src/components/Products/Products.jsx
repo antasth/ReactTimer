@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { useContext, useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { CartContext } from '../../context/CartContext'
@@ -8,7 +9,7 @@ import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  const {filter, sort} = useSelector(state => state.filterSlice)
+  const { filter, sort } = useSelector((state) => state.filterSlice)
   const { onAddToCart } = useContext(CartContext)
   const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
@@ -55,19 +56,12 @@ const Products = () => {
 
   // fetch all items on startup
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch(
-          'https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch'
-        )
-        const json = await res.json()
-        setWatches(json)
+    axios
+      .get('https://63fdd7bacd13ced3d7c00ea3.mockapi.io/watch')
+      .then((res) => {
+        setWatches(res.data)
         setIsLoading(false)
-      } catch (error) {
-        console.log('error', error)
-      }
-    }
-    fetchData()
+      })
   }, [])
 
   // onChange filter or search set current page to 1
