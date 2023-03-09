@@ -1,14 +1,15 @@
 import { Dropdown } from 'antd'
-import { useContext } from 'react'
+import { useDispatch } from 'react-redux'
 import { filters } from '../../../config'
-import { SortContext } from '../../../context/SortContext'
+import { setActiveIndex, setFilter } from '../../../redux/slices/filterSlice'
 import styles from './FilterDropDown.module.scss'
 
 const FilterDropDown = () => {
-  const {setFilterParams} = useContext(SortContext)
+  const dispatch = useDispatch()
 
   const handleMenuClick = (e) => {
-    setFilterParams(filters[e.key])
+    dispatch(setActiveIndex(e.key))
+    dispatch(setFilter(filters[e.key]))
   }
 
   const items = filters.map((filter, index) => {
