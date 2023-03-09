@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header_content}>
-        <Link to="/">
+        <Link to="/ReactTimer">
           <div className={styles.logo}>
             <Logo />
           </div>

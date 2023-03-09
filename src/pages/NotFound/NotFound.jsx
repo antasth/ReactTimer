@@ -20,7 +20,7 @@ const NotFound = () => {
           Вы можете воспользоваться формой поиска по каталогу, или перейти в
           каталог товаров
         </p>
-        <Link to="/">
+        <Link to="/ReactTimer">
           <Button className={styles.button}>Перейти в каталог</Button>
         </Link>
       </div>

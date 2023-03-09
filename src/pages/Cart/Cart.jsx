@@ -87,7 +87,7 @@ const Cart = () => {
               <span>12345 p</span>
             </div>
             <div className={styles.order}>
-              <Link to="/">
+              <Link to="/ReactTimer">
                 <button className={styles.button_catalog}>На главную</button>
               </Link>
               <button className={styles.button_catalog}>Оформить заказ</button>
