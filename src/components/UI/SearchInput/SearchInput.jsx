@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { BsSearch } from 'react-icons/bs';
+import { CgSearch } from 'react-icons/cg';
 import { VscClose } from 'react-icons/vsc';
 import { SortContext } from '../../../context/SortContext';
 import styles from './SearchInput.module.scss';
@@ -10,13 +10,9 @@ const SearchInput = () => {
   return (
     <div className={styles.search_box}>
       <form className={styles.search_form}>
-{/* 
-        <button
-          className={styles.btn_search}
-          onClick={(e) => e.preventDefault()}
-        >
-        </button> */}
-        <BsSearch id='icon'/>
+        <div className={styles.form_content}>
+
+        <CgSearch id='icon'/>
         <input
           type="text"
           className={styles.input_search}
@@ -25,6 +21,7 @@ const SearchInput = () => {
           onChange={(e) => setSearchParams(e.target.value)}
         />
         <VscClose className={styles.close_icon} id='icon'/>
+        </div>
 
       </form>
     </div>

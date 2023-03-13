@@ -35,14 +35,14 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.buttons}>
+        <div>
           <ul>
             <li>
               <SearchInput />
             </li>
             <li>
               <Link to="/cart">
-                <HiOutlineShoppingBag className={styles.carticon} />
+                <HiOutlineShoppingBag id='icon' />
               </Link>
             </li>
           </ul>
