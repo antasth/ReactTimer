@@ -1,9 +1,11 @@
 import { Pagination as Pag } from 'antd'
+import { scrollToTop } from '../../../utils/pageFunctions'
 import styles from './Pagination.module.scss'
 
 const Pagination = ({ count, getPageParams, currentPage }) => {
   const onChange = (current, pageSize) => {
     getPageParams(current, pageSize)
+    scrollToTop()
   }
 
   return (
