@@ -7,7 +7,7 @@ import { slicePrice } from '../../utils/pageFunctions'
 import styles from './Cart.module.scss'
 
 const Cart = () => {
-  const {cartItems, clearCart, onDelFromCart} = useContext(CartContext)
+  const { cartItems, clearCart, onDelFromCart } = useContext(CartContext)
 
   return (
     <div className={styles.cart}>
@@ -52,7 +52,9 @@ const Cart = () => {
                         <div className={styles.model}>{item.model}</div>
                       </div>
                       <div className={styles.description_top_right}>
-                        <div className={styles.price}>{slicePrice(item.price) } $</div>
+                        <div className={styles.price}>
+                          {slicePrice(item.price)} $
+                        </div>
                       </div>
                     </div>
                     <div className={styles.description_bottom}>
