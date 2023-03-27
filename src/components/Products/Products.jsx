@@ -1,6 +1,8 @@
 import axios from 'axios'
+import qs from 'qs'
 import { useContext, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useNavigate } from 'react-router'
 import { CartContext } from '../../context/CartContext'
 import { setCurrentPage } from '../../redux/slices/filterSlice'
 import { ProductCard } from '../ProductCard'
@@ -10,6 +12,7 @@ import styles from './Products.module.scss'
 
 const Products = () => {
   const dispatch = useDispatch()
+  const navigate = useNavigate()
   const { filter, sort, search, currentPage, itemsOnPage } = useSelector(
     (state) => state.filterSlice
   )
@@ -42,6 +45,16 @@ const Products = () => {
   useEffect(() => {
     dispatch(setCurrentPage(1))
   }, [filter, search, dispatch])
+
+  //add queryString to address bar
+  useEffect(() => {
+    const queryString = qs.stringify({
+      sortProperty: sort.value,
+      filter,
+      currentPage,
+    })
+    navigate(`?${queryString}`)
+  }, [filter, sort, currentPage])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)
   const items = watches
