@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useContext, useEffect, useState } from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import {setCurrentPage} from '../../redux/slices/filterSlice';
 import { CartContext } from '../../context/CartContext'
 import { SortContext } from '../../context/SortContext'
 import { ProductCard } from '../ProductCard'
@@ -9,17 +10,22 @@ import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  const { filter, sort } = useSelector((state) => state.filterSlice)
+  const dispatch = useDispatch()
+  const { filter, sort, currentPage } = useSelector((state) => state.filterSlice)
   const { onAddToCart } = useContext(CartContext)
   const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [itemsOnPage, setItemsOnPage] = useState(12)
-  const [currentPage, setCurrentPage] = useState(1)
+  // const [currentPage, setCurrentPage] = useState(1)
+
+  const onChangePage = (number) => {
+    dispatch(setCurrentPage(number))
+  }
 
   const getPageParams = (current, pageSize) => {
     setItemsOnPage(pageSize)
-    setCurrentPage(current)
+    onChangePage(current)
   }
   // fetch filter sort search
   useEffect(() => {
@@ -44,7 +50,7 @@ const Products = () => {
 
   // onChange filter or search set current page to 1
   useEffect(() => {
-    setCurrentPage(1)
+    onChangePage(1)
   }, [filter, search])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)

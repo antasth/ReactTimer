@@ -1,8 +1,8 @@
-import debounce from 'lodash.debounce'
 import { useCallback, useContext, useRef, useState } from 'react'
+import { SortContext } from '../../../context/SortContext'
+import debounce from 'lodash.debounce'
 import { CgSearch } from 'react-icons/cg'
 import { VscClose } from 'react-icons/vsc'
-import { SortContext } from '../../../context/SortContext'
 import styles from './SearchInput.module.scss'
 
 const SearchInput = () => {
@@ -39,7 +39,6 @@ const SearchInput = () => {
             ref={inputRef}
             value={searchValue}
             placeholder="Поиск..."
-            // onChange={(e) => setSearchParams(e.target.value)}
             onChange={onChangeInput}
           />
           <VscClose
