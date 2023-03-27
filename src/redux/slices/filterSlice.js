@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   currentPage: 1,
+  itemsOnPage: 12,
   activeIndex: null,
   filter: '',
   sort: {
@@ -26,9 +27,18 @@ const filterSlice = createSlice({
     setCurrentPage(state, action) {
       state.currentPage = action.payload
     },
+    setItemsOnPage(state, action) {
+      state.itemsOnPage = action.payload
+    },
   },
 })
 
-export const { setActiveIndex, setFilter, setSort, setCurrentPage } = filterSlice.actions
+export const {
+  setActiveIndex,
+  setFilter,
+  setSort,
+  setCurrentPage,
+  setItemsOnPage,
+} = filterSlice.actions
 
 export default filterSlice.reducer

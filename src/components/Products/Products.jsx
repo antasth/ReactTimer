@@ -11,16 +11,12 @@ import styles from './Products.module.scss'
 
 const Products = () => {
   const dispatch = useDispatch()
-  const { filter, sort, currentPage } = useSelector((state) => state.filterSlice)
+  const { filter, sort, currentPage, itemsOnPage } = useSelector((state) => state.filterSlice)
   const { onAddToCart } = useContext(CartContext)
   const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
-  const [itemsOnPage, setItemsOnPage] = useState(12)
 
-  const getPageParams = (pageSize) => {
-    setItemsOnPage(pageSize)
-  }
   // fetch filter sort search
   useEffect(() => {
     const filterBy = filter ? `&filter=${filter}` : ''
@@ -62,7 +58,6 @@ const Products = () => {
         <ul className={styles.grid}>{isLoading ? skeleton : items}</ul>
         <Pagination
           count={watches.length}
-          getPageParams={getPageParams}
           currentPage={currentPage}
         />
       </div>

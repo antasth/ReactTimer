@@ -1,15 +1,18 @@
 import { Pagination as Pag } from 'antd'
-import { scrollToTop } from '../../../utils/pageFunctions'
-import { setCurrentPage } from '../../../redux/slices/filterSlice'
-import styles from './Pagination.module.scss'
 import { useDispatch } from 'react-redux'
+import {
+  setCurrentPage,
+  setItemsOnPage,
+} from '../../../redux/slices/filterSlice'
+import { scrollToTop } from '../../../utils/pageFunctions'
+import styles from './Pagination.module.scss'
 
-const Pagination = ({ count, getPageParams, currentPage }) => {
+const Pagination = ({ count, currentPage }) => {
   const dispatch = useDispatch()
   const onChange = (current, pageSize) => {
     dispatch(setCurrentPage(current))
-    getPageParams(pageSize)
-    // scrollToTop()
+    dispatch(setItemsOnPage(pageSize))
+    scrollToTop()
   }
 
   return (
@@ -36,4 +39,3 @@ const Pagination = ({ count, getPageParams, currentPage }) => {
   )
 }
 export { Pagination }
-
