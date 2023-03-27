@@ -17,15 +17,9 @@ const Products = () => {
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [itemsOnPage, setItemsOnPage] = useState(12)
-  // const [currentPage, setCurrentPage] = useState(1)
 
-  const onChangePage = (number) => {
-    dispatch(setCurrentPage(number))
-  }
-
-  const getPageParams = (current, pageSize) => {
+  const getPageParams = (pageSize) => {
     setItemsOnPage(pageSize)
-    onChangePage(current)
   }
   // fetch filter sort search
   useEffect(() => {
@@ -50,7 +44,7 @@ const Products = () => {
 
   // onChange filter or search set current page to 1
   useEffect(() => {
-    onChangePage(1)
+    dispatch(setCurrentPage(1))
   }, [filter, search])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)

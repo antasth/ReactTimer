@@ -7,8 +7,8 @@ import { useDispatch } from 'react-redux'
 const Pagination = ({ count, getPageParams, currentPage }) => {
   const dispatch = useDispatch()
   const onChange = (current, pageSize) => {
-    // dispatch(setCurrentPage(current))
-    getPageParams(current, pageSize)
+    dispatch(setCurrentPage(current))
+    getPageParams(pageSize)
     // scrollToTop()
   }
 
