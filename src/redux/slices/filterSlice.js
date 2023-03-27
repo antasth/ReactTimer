@@ -5,6 +5,7 @@ const initialState = {
   itemsOnPage: 12,
   activeIndex: null,
   filter: '',
+  search: '',
   sort: {
     value: 'default',
     option: '',
@@ -20,6 +21,9 @@ const filterSlice = createSlice({
     },
     setFilter(state, action) {
       state.filter = action.payload
+    },
+    setSearch(state, action) {
+      state.search = action.payload
     },
     setSort(state, action) {
       state.sort = action.payload
@@ -37,6 +41,7 @@ export const {
   setActiveIndex,
   setFilter,
   setSort,
+  setSearch,
   setCurrentPage,
   setItemsOnPage,
 } = filterSlice.actions

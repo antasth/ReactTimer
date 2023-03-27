@@ -1,24 +1,25 @@
-import { useCallback, useContext, useRef, useState } from 'react'
-import { SortContext } from '../../../context/SortContext'
 import debounce from 'lodash.debounce'
+import { useCallback, useRef, useState } from 'react'
 import { CgSearch } from 'react-icons/cg'
 import { VscClose } from 'react-icons/vsc'
+import { useDispatch } from 'react-redux'
+import { setSearch } from '../../../redux/slices/filterSlice'
 import styles from './SearchInput.module.scss'
 
 const SearchInput = () => {
-  const { setSearchParams } = useContext(SortContext)
+  const dispatch = useDispatch()
   const [searchValue, setSearchValue] = useState('')
 
   const inputRef = useRef()
   const onClickClear = () => {
     setSearchValue('')
-    setSearchParams('')
+    dispatch(setSearch(''))
     inputRef.current.focus()
   }
 
   const updateSearchValue = useCallback(
     debounce((str) => {
-      setSearchParams(str)
+      dispatch(setSearch(str))
     }, 1000),
     []
   )

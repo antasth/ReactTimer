@@ -1,9 +1,8 @@
 import axios from 'axios'
 import { useContext, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import {setCurrentPage} from '../../redux/slices/filterSlice';
 import { CartContext } from '../../context/CartContext'
-import { SortContext } from '../../context/SortContext'
+import { setCurrentPage } from '../../redux/slices/filterSlice'
 import { ProductCard } from '../ProductCard'
 import { Skeleton } from '../ProductCard/Skeleton'
 import { Pagination } from '../UI/Pagination/Pagination'
@@ -11,9 +10,10 @@ import styles from './Products.module.scss'
 
 const Products = () => {
   const dispatch = useDispatch()
-  const { filter, sort, currentPage, itemsOnPage } = useSelector((state) => state.filterSlice)
+  const { filter, sort, search, currentPage, itemsOnPage } = useSelector(
+    (state) => state.filterSlice
+  )
   const { onAddToCart } = useContext(CartContext)
-  const { search } = useContext(SortContext)
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -41,7 +41,7 @@ const Products = () => {
   // onChange filter or search set current page to 1
   useEffect(() => {
     dispatch(setCurrentPage(1))
-  }, [filter, search])
+  }, [filter, search, dispatch])
 
   const skeleton = [...new Array(8)].map((_, index) => <Skeleton key={index} />)
   const items = watches
@@ -56,10 +56,7 @@ const Products = () => {
     <div>
       <div className={styles.products}>
         <ul className={styles.grid}>{isLoading ? skeleton : items}</ul>
-        <Pagination
-          count={watches.length}
-          currentPage={currentPage}
-        />
+        <Pagination count={watches.length} currentPage={currentPage} />
       </div>
     </div>
   )
