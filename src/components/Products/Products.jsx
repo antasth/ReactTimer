@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router'
 import { CartContext } from '../../context/CartContext'
-import { setCurrentPage } from '../../redux/slices/filterSlice'
+import { setCurrentPage, setFiterParams } from '../../redux/slices/filterSlice'
 import { ProductCard } from '../ProductCard'
 import { Skeleton } from '../ProductCard/Skeleton'
 import { Pagination } from '../UI/Pagination/Pagination'
@@ -19,6 +19,18 @@ const Products = () => {
   const { onAddToCart } = useContext(CartContext)
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    if (window.location.search) {
+      const params = qs.parse(window.location.search.substring(1))
+      console.log(params)
+      dispatch(
+        setFiterParams({
+          ...params,
+        })
+      )
+    }
+  }, [])
 
   // fetch filter sort search
   useEffect(() => {

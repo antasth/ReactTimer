@@ -34,6 +34,11 @@ const filterSlice = createSlice({
     setItemsOnPage(state, action) {
       state.itemsOnPage = action.payload
     },
+    setFiterParams(state, action) {
+      state.currentPage = Number(action.payload.currentPage)
+      state.sort.value = action.payload.sortProperty
+      state.filter = action.payload.filter
+    },
   },
 })
 
@@ -44,6 +49,7 @@ export const {
   setSearch,
   setCurrentPage,
   setItemsOnPage,
+  setFiterParams,
 } = filterSlice.actions
 
 export default filterSlice.reducer
