@@ -1,10 +1,8 @@
 # React Timer Application
 
-<img src="https://github.com/antasth/ReactTimer/assets/108691372/6bc1222d-d1b6-4bac-8de5-3e0c292cf58b" width="45%"></img> <img src="https://github.com/antasth/ReactTimer/assets/108691372/b1715def-75de-4ef0-855f-3c10cfcc5085" width="45%"></img>
+## <img src="https://github.com/antasth/ReactTimer/assets/108691372/61d7976b-f14c-43a0-886f-c3b56623efbf" width="45%"></img> <img src="https://github.com/antasth/ReactTimer/assets/108691372/8c4fd62d-1dbd-40b9-b012-05cb757a8d33" width="45%"></img>
 
----
-
-[Deploy](https://antasth.github.io/react-timer)
+[Deploy](https://antasth.github.io/ReactTimer/)
 
 ---
 
