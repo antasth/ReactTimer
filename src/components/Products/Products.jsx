@@ -1,22 +1,25 @@
 import axios from 'axios'
 import qs from 'qs'
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router'
-import { CartContext } from '../../context/CartContext'
 import { setCurrentPage, setFiterParams } from '../../redux/slices/filterSlice'
 import { ProductCard } from '../ProductCard'
 import { Skeleton } from '../ProductCard/Skeleton'
 import { Pagination } from '../UI/Pagination/Pagination'
 import styles from './Products.module.scss'
+import { addToCart } from '../../redux/slices/cartSlice'
 
 const Products = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { filter, sort, search, currentPage, itemsOnPage } = useSelector(
-    (state) => state.filterSlice
+    (state) => state.filters
   )
-  const { onAddToCart } = useContext(CartContext)
+
+  const addToCartHandler = (watch) => {
+    dispatch(addToCart(watch))
+  }
   const [watches, setWatches] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
@@ -69,7 +72,7 @@ const Products = () => {
     .slice(currentPage * itemsOnPage - itemsOnPage, currentPage * itemsOnPage)
     .map((watch) => (
       <li key={watch.id} className={styles.item}>
-        <ProductCard {...watch} onAddToCart={() => onAddToCart(watch)} />
+        <ProductCard {...watch} onAddToCart={() => addToCartHandler(watch)} />
       </li>
     ))
 

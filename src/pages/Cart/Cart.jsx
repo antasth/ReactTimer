@@ -1,13 +1,22 @@
-import { useContext } from 'react'
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
 import { VscTrash } from 'react-icons/vsc'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { CartContext } from '../../context/CartContext'
 import { slicePrice } from '../../utils/pageFunctions'
 import styles from './Cart.module.scss'
+import { removeFromCart, clearCart } from '../../redux/slices/cartSlice'
 
 const Cart = () => {
-  const { cartItems, clearCart, onDelFromCart } = useContext(CartContext)
+  const cartItems = useSelector((state) => state.cart)
+  const dispatch = useDispatch()
+
+  const removeFromCartHandler = (id) => {
+    dispatch(removeFromCart(id))
+  }
+
+  const clearCartHandler = () => {
+    dispatch(clearCart())
+  }
 
   return (
     <div className={styles.cart}>
@@ -15,7 +24,7 @@ const Cart = () => {
       <div className={styles.cart_content}>
         <div className={styles.cart_clear}>
           {cartItems.length > 0 && (
-            <div className={styles.clear_button} onClick={clearCart}>
+            <div className={styles.clear_button} onClick={clearCartHandler}>
               <div className={styles.icon}>
                 <VscTrash />
               </div>
@@ -74,7 +83,7 @@ const Cart = () => {
                       <div
                         className={styles.description_bottom_right}
                         id="icon"
-                        onClick={() => onDelFromCart(item.id)}
+                        onClick={() => removeFromCartHandler(item.id)}
                       >
                         <VscTrash />
                       </div>

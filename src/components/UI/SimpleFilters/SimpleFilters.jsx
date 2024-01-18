@@ -5,7 +5,7 @@ import { FilterButton } from '../FilterButton/FilterButton'
 import styles from './SimpleFilters.module.scss'
 
 const SimpleFilters = () => {
-  const activeIndex = useSelector((state) => state.filterSlice.activeIndex)
+  const activeIndex = useSelector((state) => state.filters.activeIndex)
   const dispatch = useDispatch()
 
   const onClickFilter = (id) => {

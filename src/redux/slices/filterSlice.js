@@ -12,7 +12,7 @@ const initialState = {
   },
 }
 
-const filterSlice = createSlice({
+export const filterSlice = createSlice({
   name: 'filters',
   initialState,
   reducers: {
@@ -51,5 +51,3 @@ export const {
   setItemsOnPage,
   setFiterParams,
 } = filterSlice.actions
-
-export default filterSlice.reducer
