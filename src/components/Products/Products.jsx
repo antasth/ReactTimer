@@ -23,7 +23,6 @@ const Products = () => {
   useEffect(() => {
     if (window.location.search) {
       const params = qs.parse(window.location.search.substring(1))
-      console.log(params)
       dispatch(
         setFiterParams({
           ...params,
@@ -32,7 +31,6 @@ const Products = () => {
     }
   }, [])
 
-  // fetch filter sort search
   useEffect(() => {
     const filterBy = filter ? `&filter=${filter}` : ''
     const sortBy = sort.value ? `&sortBy=${sort.value}` : ''
@@ -53,12 +51,10 @@ const Products = () => {
     })
   }, [filter, sort, search])
 
-  // onChange filter or search set current page to 1
   useEffect(() => {
     dispatch(setCurrentPage(1))
   }, [filter, search, dispatch])
 
-  //add queryString to address bar
   useEffect(() => {
     const queryString = qs.stringify({
       sortProperty: sort.value,

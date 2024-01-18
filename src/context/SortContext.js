@@ -1,4 +1,3 @@
-// Context нигде не используется, оставлен для примера
 import { createContext, useState } from 'react'
 
 const SortContext = createContext()
@@ -31,4 +30,4 @@ const SortContextProvider = (props) => {
   )
 }
 
-// export { SortContext, SortContextProvider }
+export { SortContext, SortContextProvider }
